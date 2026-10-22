@@ -1,0 +1,1939 @@
+{
+ "_ghi_chu": "Nội dung lấy từ SGK Lịch sử và Địa lí 4 – Kết nối tri thức với cuộc sống (bản cô đã nạp). Dòng 'truoc' là hiểu biết chung về địa giới trước 01/7/2025 — cô soát lại. Sửa file này rồi chạy: python ghep.py",
+ "vung": {
+  "tdmn": {
+   "ten": "Trung du và miền núi phía Bắc",
+   "mau": "#2f9e5f"
+  },
+  "dbbb": {
+   "ten": "Đồng bằng Bắc Bộ",
+   "mau": "#e0a526"
+  },
+  "btnt": {
+   "ten": "Bắc Trung Bộ và Nam Trung Bộ",
+   "mau": "#e2683c"
+  },
+  "nb": {
+   "ten": "Nam Bộ",
+   "mau": "#2f86d6"
+  }
+ },
+ "loi": {
+  "hc": {
+   "ten": "Nhầm địa giới cũ – mới",
+   "mau": "#f08c1a",
+   "goi_y": "Sau 01/7/2025 nhiều tỉnh đã sáp nhập. Hãy đọc tên địa danh theo sách bản mới."
+  },
+  "vung": {
+   "ten": "Nhầm vùng",
+   "mau": "#8b5cf6",
+   "goi_y": "Nhìn lại màu vùng trên bản đồ hành trình: điểm đến này nằm ở vùng nào?"
+  },
+  "moc": {
+   "ten": "Nhầm mốc thời gian",
+   "mau": "#2f86d6",
+   "goi_y": "Mở Sợi chỉ thời gian, xếp hai mốc cạnh nhau để so sánh."
+  },
+  "noi": {
+   "ten": "Nhầm địa danh, công trình",
+   "mau": "#e0457b",
+   "goi_y": "Quay lại cảnh thực địa, bấm vào kính lúp để xem lại từng công trình."
+  },
+  "nguoi": {
+   "ten": "Nhầm nhân vật, dân tộc",
+   "mau": "#16a34a",
+   "goi_y": "Đọc lại câu chuyện lịch sử: ai làm việc gì, ở đâu?"
+  },
+  "y": {
+   "ten": "Hiểu chưa đúng ý",
+   "mau": "#64748b",
+   "goi_y": "Đọc chậm lại đoạn thông tin, tìm từ khoá quan trọng."
+  }
+ },
+ "nha": {
+  "id": "truong-em",
+  "ten": "Ga xuất phát: Trường em",
+  "lon": 106.67,
+  "lat": 10.78,
+  "dx": 70,
+  "dy": 52,
+  "nay": "Trường Tiểu học Bắc Hải, phường Hòa Hưng, Thành phố Hồ Chí Minh",
+  "truoc": "Trước 01/7/2025: khu vực này thuộc Quận 10, Thành phố Hồ Chí Minh · Căn cứ: NQ 1685/NQ-UBTVQH15 kh.27: Phường 12, 13, 15 và phần Phường 14 (Quận 10) → phường Hòa Hưng"
+ },
+ "diem": [
+  {
+   "id": "lung-cu",
+   "ten": "Cột cờ Lũng Cú",
+   "icon": "🚩",
+   "vung": "tdmn",
+   "bai": "Bài 4",
+   "sgk": "SGK tr. 18–19",
+   "lon": 105.32,
+   "lat": 23.33,
+   "dx": 0,
+   "dy": 0,
+   "nay": "Đỉnh núi Rồng, xã Lũng Cú, tỉnh Tuyên Quang",
+   "truoc": "Trước 01/7/2025: xã Lũng Cú, huyện Đồng Văn, tỉnh Hà Giang · Căn cứ: NQ 202/2025/QH15 kh.1 (Hà Giang + Tuyên Quang → Tuyên Quang); NQ 1684/NQ-UBTVQH15 kh.44: xã Má Lé + Lũng Táo + Lũng Cú → xã Lũng Cú (xã mới hợp nhất)",
+   "chao": "Chào các bạn nhỏ! Chuyến tàu thực địa đã tới địa đầu Tổ quốc: Cột cờ Lũng Cú, tỉnh Tuyên Quang.",
+   "hs": [
+    {
+     "x": 820,
+     "y": 150,
+     "ten": "Lá Quốc kì 54 mét vuông",
+     "noi": "Trên đỉnh cột là Quốc kì Việt Nam rộng 54 mét vuông, tượng trưng cho 54 dân tộc của nước ta."
+    },
+    {
+     "x": 700,
+     "y": 560,
+     "ten": "Đỉnh núi Rồng",
+     "noi": "Cột cờ Lũng Cú được xây dựng trên đỉnh núi Rồng, thuộc xã Lũng Cú, tỉnh Tuyên Quang, nằm ở địa đầu Tổ quốc."
+    },
+    {
+     "x": 300,
+     "y": 330,
+     "ten": "Vùng núi phía Bắc",
+     "noi": "Trung du và miền núi phía Bắc là vùng lãnh thổ nằm ở phía bắc đất nước. Đây là vùng duy nhất của nước ta không giáp biển."
+    },
+    {
+     "x": 1330,
+     "y": 260,
+     "ten": "Dãy Hoàng Liên Sơn",
+     "noi": "Trong vùng có dãy núi Hoàng Liên Sơn với đỉnh Phan-xi-păng cao 3 147 mét."
+    }
+   ],
+   "cau": [
+    {
+     "hoi": "Theo sách mới, Cột cờ Lũng Cú nằm ở đâu?",
+     "chon": [
+      [
+       "Xã Lũng Cú, tỉnh Tuyên Quang",
+       ""
+      ],
+      [
+       "Xã Lũng Cú, huyện Đồng Văn, tỉnh Hà Giang",
+       "hc"
+      ],
+      [
+       "Trên đỉnh Phan-xi-păng",
+       "noi"
+      ],
+      [
+       "Thành phố Hà Nội",
+       "vung"
+      ]
+     ]
+    },
+    {
+     "hoi": "Lá cờ trên đỉnh cột rộng 54 mét vuông. Con số 54 tượng trưng cho điều gì?",
+     "chon": [
+      [
+       "54 dân tộc của nước ta",
+       ""
+      ],
+      [
+       "54 tỉnh, thành phố",
+       "y"
+      ],
+      [
+       "54 năm xây dựng cột cờ",
+       "y"
+      ],
+      [
+       "54 ngọn núi quanh cột cờ",
+       "y"
+      ]
+     ]
+    },
+    {
+     "hoi": "Vùng Trung du và miền núi phía Bắc có điểm gì đặc biệt?",
+     "chon": [
+      [
+       "Là vùng duy nhất không giáp biển",
+       ""
+      ],
+      [
+       "Có nhiều cao nguyên xếp tầng rộng lớn ven biển",
+       "vung"
+      ],
+      [
+       "Có nhiều chợ nổi trên sông",
+       "vung"
+      ],
+      [
+       "Có cửa Ba Lạt đổ ra biển",
+       "vung"
+      ]
+     ]
+    }
+   ],
+   "vr": [
+    {
+     "loai": "video",
+     "ten": "Lễ chào cờ nơi cực Bắc – Cột cờ Quốc gia Lũng Cú",
+     "url": "https://www.youtube.com/watch?v=Q7Bl3vOfHTk",
+     "nguon": "Ấn tượng VTV (Rạng rỡ Việt Nam) · YouTube"
+    },
+    {
+     "loai": "video",
+     "ten": "Lễ chào cờ trên Cột cờ Quốc gia Lũng Cú",
+     "url": "https://www.youtube.com/watch?v=G8KVXCqjMEg",
+     "nguon": "Báo và Phát thanh, Truyền hình Tuyên Quang · YouTube"
+    },
+    {
+     "loai": "video",
+     "ten": "Lễ chào cờ, thượng cờ tại Cột cờ Lũng Cú dịp Quốc khánh 2/9/2023",
+     "url": "https://www.youtube.com/watch?v=wC_eSD0m9Bc",
+     "nguon": "Hà Giang TV · YouTube"
+    }
+   ],
+   "hoi_dap": [
+    {
+     "cau": "Cột cờ Lũng Cú nằm trên đỉnh núi nào?",
+     "goi_y": "Tên núi có chữ «Rồng».",
+     "dap": "Đỉnh núi Rồng, xã Lũng Cú, tỉnh Tuyên Quang, nằm ở địa đầu Tổ quốc.",
+     "nguon": "SGK Lịch sử và Địa lí 4 (KNTT, bản 2026) · Bài 4, tr. 19",
+     "duyet": "cô duyệt trước khi dùng"
+    },
+    {
+     "cau": "Lá cờ trên cột cờ có diện tích bao nhiêu và tượng trưng cho điều gì?",
+     "goi_y": "Con số trùng với số dân tộc của nước ta.",
+     "dap": "Lá cờ rộng 54 m², tượng trưng cho 54 dân tộc của nước ta.",
+     "nguon": "SGK Lịch sử và Địa lí 4 (KNTT, bản 2026) · Bài 4, tr. 19",
+     "duyet": "cô duyệt trước khi dùng"
+    },
+    {
+     "cau": "Đỉnh Phan-xi-păng thuộc dãy núi nào và cao bao nhiêu mét?",
+     "goi_y": "Dãy núi này cao và đồ sộ nhất nước ta.",
+     "dap": "Dãy Hoàng Liên Sơn; cao 3 147 m theo số đo mới nhất năm 2019, là đỉnh núi cao nhất Việt Nam, được gọi là «nóc nhà Đông Dương».",
+     "nguon": "SGK Lịch sử và Địa lí 4 (KNTT, bản 2026) · Bài 4, tr. 20",
+     "duyet": "cô duyệt trước khi dùng"
+    },
+    {
+     "cau": "Khí hậu vùng Trung du và miền núi phía Bắc có gì đặc biệt?",
+     "goi_y": "Nghĩ đến tuyết rơi trên đỉnh Phan-xi-păng vào mùa đông.",
+     "dap": "Khí hậu nhiệt đới ẩm gió mùa, có mùa đông lạnh nhất cả nước; ở vùng núi cao nhiệt độ hạ thấp, có khi có tuyết rơi.",
+     "nguon": "SGK Lịch sử và Địa lí 4 (KNTT, bản 2026) · Bài 4, tr. 20",
+     "duyet": "cô duyệt trước khi dùng"
+    },
+    {
+     "cau": "Vì sao vùng này thuận lợi để phát triển thuỷ điện?",
+     "goi_y": "Hãy nhớ đặc điểm của các con sông trong vùng.",
+     "dap": "Vùng có nhiều sông lớn như sông Hồng, sông Đà, sông Chảy, sông Lô, sông Gâm…; các sông có nhiều thác ghềnh nên có khả năng phát triển thuỷ điện.",
+     "nguon": "SGK Lịch sử và Địa lí 4 (KNTT, bản 2026) · Bài 4, tr. 21",
+     "duyet": "cô duyệt trước khi dùng"
+    }
+   ],
+   "nhanTrai": false
+  },
+  {
+   "id": "pa-co",
+   "ten": "Lễ hội Gầu Tào – Pà Cò",
+   "icon": "🎶",
+   "vung": "tdmn",
+   "bai": "Bài 6",
+   "sgk": "SGK tr. 28–29",
+   "lon": 104.95,
+   "lat": 20.72,
+   "dx": -18,
+   "dy": 18,
+   "nay": "Xã Pà Cò, tỉnh Phú Thọ",
+   "truoc": "Trước 01/7/2025: xã Pà Cò, huyện Mai Châu, tỉnh Hòa Bình · Căn cứ: NQ 202/2025/QH15 kh.4; NQ 1676/NQ-UBTVQH15 kh.122: xã Cun Pheo + Hang Kia + Pà Cò + phần xã Đồng Tân → xã Pà Cò",
+   "chao": "Tàu dừng ở xã Pà Cò, tỉnh Phú Thọ. Mời các bạn xuống dự lễ hội Gầu Tào của đồng bào Mông.",
+   "hs": [
+    {
+     "x": 800,
+     "y": 200,
+     "ten": "Cây nêu giữa sân hội",
+     "noi": "Lễ hội Gầu Tào là lễ hội truyền thống của người Mông, được tổ chức vào đầu năm, tại nơi bằng phẳng, rộng rãi."
+    },
+    {
+     "x": 470,
+     "y": 470,
+     "ten": "Múa khèn, ném pao",
+     "noi": "Sau phần nghi lễ trang trọng là những hoạt động vui chơi như: múa khèn, ném pao, đi thăng bằng, đẩy gậy."
+    },
+    {
+     "x": 1180,
+     "y": 430,
+     "ten": "Lời cầu chúc",
+     "noi": "Các lễ hội được tổ chức nhằm cầu cho mọi người một năm khoẻ mạnh, nhiều may mắn, mùa màng bội thu."
+    },
+    {
+     "x": 1420,
+     "y": 250,
+     "ten": "Hát Then",
+     "noi": "Ở vùng này còn có hát Then của các dân tộc Tày, Nùng, Thái, mong muốn những điều may mắn và cuộc sống tốt lành."
+    }
+   ],
+   "cau": [
+    {
+     "hoi": "Lễ hội Gầu Tào là lễ hội truyền thống của dân tộc nào?",
+     "chon": [
+      [
+       "Dân tộc Mông",
+       ""
+      ],
+      [
+       "Dân tộc Tày",
+       "nguoi"
+      ],
+      [
+       "Dân tộc Ê Đê",
+       "nguoi"
+      ],
+      [
+       "Dân tộc Ba Na",
+       "nguoi"
+      ]
+     ]
+    },
+    {
+     "hoi": "Theo sách mới, xã Pà Cò nay thuộc tỉnh nào?",
+     "chon": [
+      [
+       "Tỉnh Phú Thọ",
+       ""
+      ],
+      [
+       "Tỉnh Hòa Bình",
+       "hc"
+      ],
+      [
+       "Tỉnh Lai Châu",
+       "noi"
+      ],
+      [
+       "Tỉnh Lạng Sơn",
+       "noi"
+      ]
+     ]
+    },
+    {
+     "hoi": "Hoạt động vui chơi nào có trong lễ hội Gầu Tào?",
+     "chon": [
+      [
+       "Múa khèn, ném pao",
+       ""
+      ],
+      [
+       "Gói bánh chưng, giã bánh giầy",
+       "noi"
+      ],
+      [
+       "Mua bán trên ghe, xuồng",
+       "vung"
+      ],
+      [
+       "Đánh cồng chiêng mừng lúa mới",
+       "vung"
+      ]
+     ]
+    }
+   ],
+   "vr": [
+    {
+     "loai": "video",
+     "ten": "Khai mạc Lễ hội Gầu Tào dân tộc Mông (Mai Châu)",
+     "url": "https://www.youtube.com/watch?v=5N5pX8AdxAQ",
+     "nguon": "Khám phá Phú Thọ (tin Thời sự Hòa Bình) · YouTube"
+    },
+    {
+     "loai": "video",
+     "ten": "Sắc xuân rực rỡ trong Lễ hội Gầu Tào của đồng bào Mông",
+     "url": "https://www.youtube.com/watch?v=3GxcB_aTh0A",
+     "nguon": "Tin nhanh Thông tấn (TTXVN) · YouTube"
+    },
+    {
+     "loai": "video",
+     "ten": "Lễ hội Gầu Tào – nét đẹp văn hoá đồng bào Mông (quay ở Lai Châu)",
+     "url": "https://www.youtube.com/watch?v=nJKqnm3Q238",
+     "nguon": "Báo và Phát thanh, Truyền hình Lai Châu · YouTube"
+    }
+   ],
+   "hoi_dap": [
+    {
+     "cau": "Lễ hội Gầu Tào là lễ hội của dân tộc nào?",
+     "goi_y": "Dân tộc này nổi tiếng với tiếng khèn và trò ném pao.",
+     "dap": "Lễ hội truyền thống của người Mông, tổ chức vào đầu năm.",
+     "nguon": "SGK Lịch sử và Địa lí 4 (KNTT, bản 2026) · Bài 6, tr. 29",
+     "duyet": "cô duyệt trước khi dùng"
+    },
+    {
+     "cau": "Trong lễ hội Gầu Tào có những hoạt động vui chơi nào?",
+     "goi_y": "Có một trò chơi dùng quả pao và có một trò đi trên dây.",
+     "dap": "Múa khèn, ném pao, đi thăng bằng, đẩy gậy…",
+     "nguon": "SGK Lịch sử và Địa lí 4 (KNTT, bản 2026) · Bài 6, tr. 29",
+     "duyet": "cô duyệt trước khi dùng"
+    },
+    {
+     "cau": "Xoè Thái là gì?",
+     "goi_y": "Đây là một loại hình nghệ thuật của người Thái, biểu diễn trong dịp lễ, tết.",
+     "dap": "Xoè Thái là loại hình múa truyền thống đặc sắc của người Thái, biểu diễn trong các dịp lễ, tết, ngày vui của gia đình, dòng họ, bản mường…",
+     "nguon": "SGK Lịch sử và Địa lí 4 (KNTT, bản 2026) · Bài 6, tr. 30",
+     "duyet": "cô duyệt trước khi dùng"
+    },
+    {
+     "cau": "Lễ hội Lồng Tồng còn có tên gọi nào khác, và có hoạt động gì?",
+     "goi_y": "Lễ hội diễn ra trên cánh đồng, đầu vụ cấy.",
+     "dap": "Còn gọi là hội Xuống đồng, của người Tày, Nùng… Cày ruộng là nghi thức quan trọng, sau đó có các trò chơi dân gian như tung còn, kéo co, đẩy gậy…",
+     "nguon": "SGK Lịch sử và Địa lí 4 (KNTT, bản 2026) · Bài 6, tr. 29",
+     "duyet": "cô duyệt trước khi dùng"
+    },
+    {
+     "cau": "Chợ phiên vùng cao bán những gì và họp vào lúc nào?",
+     "goi_y": "Chợ không họp hằng ngày.",
+     "dap": "Chợ họp vào những ngày nhất định; hàng hoá phần lớn là sản phẩm của người dân địa phương, nhiều nhất là hàng thổ cẩm, công cụ sản xuất, một số món ăn đặc trưng như thắng cố, cơm lam…",
+     "nguon": "SGK Lịch sử và Địa lí 4 (KNTT, bản 2026) · Bài 6, tr. 30",
+     "duyet": "cô duyệt trước khi dùng"
+    }
+   ],
+   "nhanTrai": true
+  },
+  {
+   "id": "den-hung",
+   "ten": "Đền Hùng",
+   "icon": "⛩️",
+   "vung": "tdmn",
+   "bai": "Bài 7",
+   "sgk": "SGK tr. 32–35",
+   "lon": 105.33,
+   "lat": 21.35,
+   "dx": -40,
+   "dy": -12,
+   "nay": "Khu di tích chủ yếu thuộc xã Hy Cương, tỉnh Phú Thọ",
+   "truoc": "Trước 01/7/2025: xã Hy Cương, thành phố Việt Trì, tỉnh Phú Thọ · Căn cứ: NQ 1676/NQ-UBTVQH15 kh.1: xã Thanh Đình + Chu Hóa + Hy Cương → xã Hy Cương (xã mới hợp nhất)",
+   "chao": "Dù ai đi ngược về xuôi, nhớ ngày giỗ Tổ mồng Mười tháng Ba. Chúng ta đang ở khu di tích Đền Hùng, tỉnh Phú Thọ.",
+   "hs": [
+    {
+     "x": 330,
+     "y": 470,
+     "ten": "Cổng vào khu di tích",
+     "noi": "Khu di tích Đền Hùng gồm: Đền Hạ, Đền Trung, Đền Thượng, lăng Vua Hùng, đền Quốc Tổ Lạc Long Quân, đền Tổ Mẫu Âu Cơ."
+    },
+    {
+     "x": 1190,
+     "y": 110,
+     "ten": "Đền Thượng",
+     "noi": "Đoàn rước kiệu lần lượt đi qua các đền để lên Đền Thượng. Tại đây, lễ dâng hương được tổ chức trang trọng, thể hiện đạo lí uống nước nhớ nguồn."
+    },
+    {
+     "x": 760,
+     "y": 420,
+     "ten": "Ngày giỗ Tổ",
+     "noi": "Lễ giỗ Tổ Hùng Vương là ngày lễ lớn của dân tộc Việt Nam, được tổ chức vào ngày 10 tháng Ba âm lịch hằng năm."
+    },
+    {
+     "x": 1360,
+     "y": 520,
+     "ten": "Phần hội",
+     "noi": "Phần hội có các hoạt động như: thi gói bánh chưng, giã bánh giầy, Hát Xoan, đấu vật."
+    }
+   ],
+   "cau": [
+    {
+     "hoi": "Lễ giỗ Tổ Hùng Vương được tổ chức vào ngày nào?",
+     "chon": [
+      [
+       "Ngày 10 tháng Ba âm lịch",
+       ""
+      ],
+      [
+       "Ngày 10 tháng Ba dương lịch",
+       "moc"
+      ],
+      [
+       "Ngày 30 tháng 4",
+       "moc"
+      ],
+      [
+       "Ngày 5 tháng 6",
+       "moc"
+      ]
+     ]
+    },
+    {
+     "hoi": "Khu di tích Đền Hùng chủ yếu thuộc xã Hy Cương, tỉnh nào?",
+     "chon": [
+      [
+       "Tỉnh Phú Thọ",
+       ""
+      ],
+      [
+       "Tỉnh Vĩnh Phúc",
+       "hc"
+      ],
+      [
+       "Thành phố Hà Nội",
+       "noi"
+      ],
+      [
+       "Tỉnh Tuyên Quang",
+       "noi"
+      ]
+     ]
+    },
+    {
+     "hoi": "Lễ dâng hương trang trọng được tổ chức tại đền nào?",
+     "chon": [
+      [
+       "Đền Thượng",
+       ""
+      ],
+      [
+       "Đền Hạ",
+       "noi"
+      ],
+      [
+       "Đền Giếng",
+       "noi"
+      ],
+      [
+       "Văn Miếu",
+       "noi"
+      ]
+     ]
+    }
+   ],
+   "vr": [
+    {
+     "loai": "video",
+     "ten": "Ký sự Đền Hùng – Đền thờ Quốc Tổ Lạc Long Quân",
+     "url": "https://www.youtube.com/watch?v=2YuHRD90o1g",
+     "nguon": "PTV – Truyền hình Phú Thọ · YouTube"
+    },
+    {
+     "loai": "video",
+     "ten": "UNESCO công nhận tín ngưỡng thờ cúng Hùng Vương ở Phú Thọ",
+     "url": "https://www.youtube.com/watch?v=DU_Lc1WKdj4",
+     "nguon": "VTV3 · YouTube"
+    }
+   ],
+   "hoi_dap": [
+    {
+     "cau": "Ngày giỗ Tổ Hùng Vương được tổ chức vào ngày nào?",
+     "goi_y": "Ngày được tính theo âm lịch.",
+     "dap": "Ngày 10 tháng Ba âm lịch hằng năm.",
+     "nguon": "SGK Lịch sử và Địa lí 4 (KNTT, bản 2026) · Bài 7, tr. 33",
+     "duyet": "cô duyệt trước khi dùng"
+    },
+    {
+     "cau": "Nghi thức quan trọng nhất trong lễ giỗ Tổ là gì?",
+     "goi_y": "Đoàn rước đi qua các đền để lên một đền ở trên cao.",
+     "dap": "Lễ rước kiệu vua và lễ dâng hương, tổ chức trang trọng ở Đền Thượng.",
+     "nguon": "SGK Lịch sử và Địa lí 4 (KNTT, bản 2026) · Bài 7, tr. 33",
+     "duyet": "cô duyệt trước khi dùng"
+    }
+   ],
+   "nhanTrai": true
+  },
+  {
+   "id": "song-hong",
+   "ten": "Sông Hồng",
+   "icon": "🌊",
+   "vung": "dbbb",
+   "bai": "Bài 11",
+   "sgk": "SGK tr. 50–51",
+   "lon": 106.55,
+   "lat": 20.25,
+   "dx": 14,
+   "dy": 26,
+   "nay": "Chảy từ xã A Mú Sung, tỉnh Lào Cai, ra biển ở cửa Ba Lạt – ranh giới tỉnh Hưng Yên và tỉnh Ninh Bình",
+   "truoc": "Trước 01/7/2025: cửa Ba Lạt là ranh giới giữa tỉnh Thái Bình và tỉnh Nam Định · Căn cứ: NQ 202/2025/QH15 kh.6, kh.8; NQ 1673/NQ-UBTVQH15 kh.49: xã Nậm Chạc + A Mú Sung → xã A Mú Sung",
+   "chao": "Lên thuyền nào! Chúng ta xuôi theo dòng sông Hồng, dòng sông đỏ nặng phù sa.",
+   "hs": [
+    {
+     "x": 230,
+     "y": 170,
+     "ten": "Nơi sông vào Việt Nam",
+     "noi": "Sông Hồng bắt nguồn từ Trung Quốc, phần chảy trên lãnh thổ Việt Nam dài khoảng 556 ki-lô-mét, từ xã A Mú Sung, tỉnh Lào Cai."
+    },
+    {
+     "x": 1420,
+     "y": 560,
+     "ten": "Cửa Ba Lạt",
+     "noi": "Sông Hồng đổ ra biển ở cửa Ba Lạt, ranh giới giữa tỉnh Hưng Yên và tỉnh Ninh Bình."
+    },
+    {
+     "x": 820,
+     "y": 330,
+     "ten": "Những tên gọi khác",
+     "noi": "Sông Hồng còn có nhiều tên gọi khác như: Nhị Hà, Hồng Hà, sông Xích Đằng, sông Kẻ Chợ, sông Cái."
+    },
+    {
+     "x": 1080,
+     "y": 160,
+     "ten": "Trống đồng Đông Sơn",
+     "noi": "Cách ngày nay khoảng 2 700 năm, trên lưu vực sông Hồng, sông Mã, sông Cả đã hình thành nền văn minh đầu tiên của người Việt cổ, với Nhà nước Văn Lang, Âu Lạc, trống đồng Đông Sơn, thành Cổ Loa."
+    }
+   ],
+   "cau": [
+    {
+     "hoi": "Phần sông Hồng chảy trên lãnh thổ Việt Nam dài khoảng bao nhiêu ki-lô-mét?",
+     "chon": [
+      [
+       "Khoảng 556 km",
+       ""
+      ],
+      [
+       "Khoảng 250 km",
+       "noi"
+      ],
+      [
+       "Khoảng 70 km",
+       "noi"
+      ],
+      [
+       "Khoảng 3 147 km",
+       "noi"
+      ]
+     ]
+    },
+    {
+     "hoi": "Theo sách mới, cửa Ba Lạt là ranh giới giữa hai tỉnh nào?",
+     "chon": [
+      [
+       "Hưng Yên và Ninh Bình",
+       ""
+      ],
+      [
+       "Thái Bình và Nam Định",
+       "hc"
+      ],
+      [
+       "Hà Nội và Hải Phòng",
+       "noi"
+      ],
+      [
+       "Lào Cai và Phú Thọ",
+       "noi"
+      ]
+     ]
+    },
+    {
+     "hoi": "Tên nào KHÔNG phải là tên gọi khác của sông Hồng?",
+     "chon": [
+      [
+       "Sông Hương",
+       ""
+      ],
+      [
+       "Nhị Hà",
+       "y"
+      ],
+      [
+       "Sông Cái",
+       "y"
+      ],
+      [
+       "Hồng Hà",
+       "y"
+      ]
+     ]
+    }
+   ],
+   "vr": [
+    {
+     "loai": "video",
+     "ten": "Bí mật nền văn minh sông Hồng: Dòng chảy dựng nước",
+     "url": "https://www.youtube.com/watch?v=r8nCgu4axS0",
+     "nguon": "Ấn tượng VTV · YouTube"
+    },
+    {
+     "loai": "video",
+     "ten": "Trống đồng Đông Sơn: Tinh hoa văn hoá Việt Nam",
+     "url": "https://www.youtube.com/watch?v=QdHJkdbzTI0",
+     "nguon": "HTV – Đài Hà Nội · YouTube"
+    }
+   ],
+   "hoi_dap": [
+    {
+     "cau": "Sông Hồng dài khoảng bao nhiêu ki-lô-mét trên lãnh thổ Việt Nam?",
+     "goi_y": "Con số bắt đầu bằng chữ số 5.",
+     "dap": "Khoảng 556 km, từ xã A Mú Sung (Lào Cai) đến cửa Ba Lạt.",
+     "nguon": "SGK Lịch sử và Địa lí 4 (KNTT, bản 2026) · Bài 11, tr. 50",
+     "duyet": "cô duyệt trước khi dùng"
+    },
+    {
+     "cau": "Sông Hồng còn có tên gọi nào khác?",
+     "goi_y": "Có tên bắt đầu bằng chữ «Nhị».",
+     "dap": "Nhị Hà, Hồng Hà, sông Xích Đằng, sông Kẻ Chợ, sông Cái.",
+     "nguon": "SGK Lịch sử và Địa lí 4 (KNTT, bản 2026) · Bài 11, tr. 50",
+     "duyet": "cô duyệt trước khi dùng"
+    }
+   ],
+   "nhanTrai": false
+  },
+  {
+   "id": "thang-long",
+   "ten": "Thăng Long – Hà Nội",
+   "icon": "🐉",
+   "vung": "dbbb",
+   "bai": "Bài 12",
+   "sgk": "SGK tr. 54–55",
+   "lon": 105.85,
+   "lat": 21.03,
+   "dx": -4,
+   "dy": -30,
+   "nay": "Thủ đô Hà Nội — vùng Đồng bằng Bắc Bộ",
+   "truoc": "Theo Nghị quyết 202/2025/QH15 (Điều 1, khoản 24): Hà Nội và Huế là hai đơn vị không sắp xếp ở cấp tỉnh; từ 01/7/2025 các đơn vị hành chính cấp xã được sắp xếp lại",
+   "chao": "Năm 1010, vua Lý Thái Tổ dời đô về đây. Chào mừng các bạn đến Thăng Long – Hà Nội!",
+   "hs": [
+    {
+     "x": 300,
+     "y": 300,
+     "ten": "Từ Hoa Lư về Đại La",
+     "noi": "Năm 1010, vua Lý Thái Tổ dời đô từ Hoa Lư, tỉnh Ninh Bình, về thành Đại La và đổi tên là Thăng Long."
+    },
+    {
+     "x": 820,
+     "y": 150,
+     "ten": "Rồng bay lên",
+     "noi": "Sử chép, khi thuyền vua ra đến Đại La, thấy có rồng vàng hiện lên, nhân đó đổi tên là thành Thăng Long, nghĩa là Rồng bay lên."
+    },
+    {
+     "x": 1250,
+     "y": 300,
+     "ten": "Những tên gọi",
+     "noi": "Thăng Long năm 1010, Đông Đô năm 1397, Đông Quan năm 1408, Đông Kinh năm 1428, Hà Nội năm 1831."
+    },
+    {
+     "x": 980,
+     "y": 600,
+     "ten": "Thủ đô hôm nay",
+     "noi": "Nơi đây là kinh đô của các triều đại Lý, Trần, Hậu Lê. Ngày nay, Hà Nội là Thủ đô của nước Cộng hoà xã hội chủ nghĩa Việt Nam."
+    }
+   ],
+   "cau": [
+    {
+     "hoi": "Năm 1010, vua Lý Thái Tổ dời đô từ đâu về thành Đại La?",
+     "chon": [
+      [
+       "Từ Hoa Lư, tỉnh Ninh Bình",
+       ""
+      ],
+      [
+       "Từ Phú Xuân, Huế",
+       "noi"
+      ],
+      [
+       "Từ thành Cổ Loa",
+       "noi"
+      ],
+      [
+       "Từ Sài Gòn",
+       "noi"
+      ]
+     ]
+    },
+    {
+     "hoi": "Năm 1831, Thăng Long được đổi tên là gì?",
+     "chon": [
+      [
+       "Hà Nội",
+       ""
+      ],
+      [
+       "Đông Đô",
+       "moc"
+      ],
+      [
+       "Đông Kinh",
+       "moc"
+      ],
+      [
+       "Đông Quan",
+       "moc"
+      ]
+     ]
+    },
+    {
+     "hoi": "Tên Thăng Long có nghĩa là gì?",
+     "chon": [
+      [
+       "Rồng bay lên",
+       ""
+      ],
+      [
+       "Kinh đô ở phía Đông",
+       "y"
+      ],
+      [
+       "Thành phố bên sông",
+       "y"
+      ],
+      [
+       "Nơi có nhiều hồ đẹp",
+       "y"
+      ]
+     ]
+    }
+   ],
+   "vr": [
+    {
+     "loai": "3d",
+     "ten": "Hiện vật 3D xoay được: Đầu rồng thời Trần – Hoàng thành Thăng Long",
+     "url": "https://trungbayonline.hoangthanhthanglong.vn/HienVat3D/Httl/26",
+     "nguon": "Trưng bày online Hoàng thành Thăng Long (Trung tâm Bảo tồn Di sản Thăng Long – Hà Nội)"
+    },
+    {
+     "loai": "3d",
+     "ten": "Hiện vật 3D xoay được: Thành bậc Điện Kính Thiên",
+     "url": "https://trungbayonline.hoangthanhthanglong.vn/HienVat3D/Httl/29",
+     "nguon": "Trưng bày online Hoàng thành Thăng Long (Trung tâm Bảo tồn Di sản Thăng Long – Hà Nội)"
+    },
+    {
+     "loai": "video",
+     "ten": "Hoàng thành Thăng Long: Giá trị di sản mãi trường tồn",
+     "url": "https://www.youtube.com/watch?v=-sHfURu3RNY",
+     "nguon": "HTV – Đài Hà Nội · YouTube"
+    },
+    {
+     "loai": "video",
+     "ten": "Khám phá bảo vật quốc gia tại Hoàng thành Thăng Long",
+     "url": "https://www.youtube.com/watch?v=RfaUTP6NFAM",
+     "nguon": "HTV – Đài Hà Nội · YouTube"
+    }
+   ],
+   "hoi_dap": [
+    {
+     "cau": "Vua nào dời đô về Thăng Long và năm nào?",
+     "goi_y": "Đó là vị vua đầu tiên của nhà Lý; năm dời đô có bốn chữ số, bắt đầu bằng 10.",
+     "dap": "Năm 1010, vua Lý Thái Tổ dời đô từ Hoa Lư về thành Đại La.",
+     "nguon": "SGK Lịch sử và Địa lí 4 (KNTT, bản 2026) · Bài 12, tr. 55",
+     "duyet": "cô duyệt trước khi dùng"
+    },
+    {
+     "cau": "Vì sao Thăng Long có tên gọi nghĩa là «Rồng bay lên»?",
+     "goi_y": "Hãy nghĩ đến chuyện thuyền vua đi ra Đại La.",
+     "dap": "Sử chép: khi thuyền vua ra đến Đại La, thấy có rồng vàng hiện lên, nên đổi tên thành Thăng Long.",
+     "nguon": "SGK Lịch sử và Địa lí 4 (KNTT, bản 2026) · Bài 12, tr. 55",
+     "duyet": "cô duyệt trước khi dùng"
+    }
+   ],
+   "nhanTrai": false
+  },
+  {
+   "id": "van-mieu",
+   "ten": "Văn Miếu – Quốc Tử Giám",
+   "icon": "📜",
+   "vung": "dbbb",
+   "bai": "Bài 13",
+   "sgk": "SGK tr. 59–61",
+   "lon": 105.85,
+   "lat": 21.03,
+   "dx": 24,
+   "dy": 18,
+   "nay": "Thành phố Hà Nội (lược đồ SGK tr. 55 ghi phường Văn Miếu – Quốc Tử Giám)",
+   "truoc": "Theo Nghị quyết 1656/NQ-UBTVQH15 (Điều 1, khoản 11): phường mới tên Văn Miếu – Quốc Tử Giám, hình thành từ nhiều phường cũ ở Hà Nội.",
+   "chao": "Các bạn đang đứng trước Khuê Văn Các, biểu tượng của Thủ đô Hà Nội. Mời vào Văn Miếu – Quốc Tử Giám!",
+   "hs": [
+    {
+     "x": 800,
+     "y": 180,
+     "ten": "Khuê Văn Các",
+     "noi": "Năm 1999, Khuê Văn Các trong khu di tích Văn Miếu – Quốc Tử Giám được chọn là biểu tượng của Thủ đô Hà Nội."
+    },
+    {
+     "x": 280,
+     "y": 470,
+     "ten": "Nhà bia Tiến sĩ",
+     "noi": "Ở Văn Miếu có 82 tấm bia đá khắc tên những người đỗ Tiến sĩ thời Hậu Lê và thời Mạc, nhằm khuyến khích tinh thần hiếu học trong nhân dân."
+    },
+    {
+     "x": 1320,
+     "y": 300,
+     "ten": "Quốc Tử Giám",
+     "noi": "Quốc Tử Giám ở phía sau Văn Miếu, là nơi học tập của các hoàng tử, con gia đình quý tộc, quan lại và những người giỏi trong nước."
+    },
+    {
+     "x": 1100,
+     "y": 560,
+     "ten": "Di sản",
+     "noi": "Năm 2010, 82 bia Tiến sĩ được UNESCO ghi danh là Di sản tư liệu thế giới. Năm 2012, khu di tích được công nhận là Di tích quốc gia đặc biệt."
+    }
+   ],
+   "cau": [
+    {
+     "hoi": "Năm 1999, công trình nào được chọn là biểu tượng của Thủ đô Hà Nội?",
+     "chon": [
+      [
+       "Khuê Văn Các",
+       ""
+      ],
+      [
+       "Ngọ Môn",
+       "noi"
+      ],
+      [
+       "Chùa Cầu",
+       "noi"
+      ],
+      [
+       "Đền Thượng",
+       "noi"
+      ]
+     ]
+    },
+    {
+     "hoi": "Ở Văn Miếu có bao nhiêu tấm bia đá khắc tên người đỗ Tiến sĩ?",
+     "chon": [
+      [
+       "82 tấm",
+       ""
+      ],
+      [
+       "54 tấm",
+       "noi"
+      ],
+      [
+       "1010 tấm",
+       "moc"
+      ],
+      [
+       "12 tấm",
+       "y"
+      ]
+     ]
+    },
+    {
+     "hoi": "Quốc Tử Giám là nơi để làm gì?",
+     "chon": [
+      [
+       "Nơi học tập của hoàng tử, con quan và người giỏi",
+       ""
+      ],
+      [
+       "Nơi thờ các Vua Hùng",
+       "noi"
+      ],
+      [
+       "Nơi vua ở và làm việc",
+       "noi"
+      ],
+      [
+       "Nơi buôn bán của thương nhân",
+       "noi"
+      ]
+     ]
+    }
+   ],
+   "vr": [
+    {
+     "loai": "vr",
+     "ten": "Tham quan 360° Văn Miếu – Quốc Tử Giám (Văn Miếu Môn, Khuê Văn Các, giếng Thiên Quang, bia Tiến sĩ…)",
+     "url": "https://vr360.com.vn/projects/van-mieu-quoc-tu-giam/",
+     "nguon": "Thực hiện: VR360 (vr360.com.vn)"
+    },
+    {
+     "loai": "video",
+     "ten": "Độc đáo kiến trúc Văn Miếu – Quốc Tử Giám",
+     "url": "https://www.youtube.com/watch?v=qDDmW9haSas",
+     "nguon": "HTV – Đài Hà Nội · YouTube"
+    },
+    {
+     "loai": "video",
+     "ten": "Văn Miếu – Quốc Tử Giám: trường đại học đầu tiên của Việt Nam",
+     "url": "https://www.youtube.com/watch?v=mXf3RboDwdQ",
+     "nguon": "Báo Kinh tế và Đô thị · YouTube"
+    }
+   ],
+   "hoi_dap": [
+    {
+     "cau": "Khuê Văn Các được chọn làm biểu tượng của Thủ đô vào năm nào?",
+     "goi_y": "Năm có số 1 đứng đầu và số 9 ở cuối.",
+     "dap": "Năm 1999.",
+     "nguon": "SGK Lịch sử và Địa lí 4 (KNTT, bản 2026) · Bài 13, tr. 59",
+     "duyet": "cô duyệt trước khi dùng"
+    },
+    {
+     "cau": "82 tấm bia đá ở Văn Miếu ghi điều gì?",
+     "goi_y": "Ghi tên những người đã đạt một học vị cao.",
+     "dap": "Ghi tên những người đỗ Tiến sĩ thời Hậu Lê và thời Mạc.",
+     "nguon": "SGK Lịch sử và Địa lí 4 (KNTT, bản 2026) · Bài 13, tr. 61",
+     "duyet": "cô duyệt trước khi dùng"
+    }
+   ],
+   "nhanTrai": false
+  },
+  {
+   "id": "hue",
+   "ten": "Cố đô Huế",
+   "icon": "🏯",
+   "vung": "btnt",
+   "bai": "Bài 19",
+   "sgk": "SGK tr. 88–90",
+   "lon": 107.59,
+   "lat": 16.46,
+   "dx": 0,
+   "dy": 0,
+   "nay": "Chủ yếu thuộc các phường Phú Xuân, Thuận Hoá và một số phường lân cận như Kim Long, Thuỷ Xuân,… của thành phố Huế",
+   "truoc": "Theo Nghị quyết 202/2025/QH15 (Điều 1, khoản 24): Huế là thành phố không thực hiện sắp xếp ở cấp tỉnh. Trước đây là thành phố Huế thuộc tỉnh Thừa Thiên Huế; Huế trở thành thành phố trực thuộc Trung ương từ 01/01/2025 · Căn cứ: NQ 1675/NQ-UBTVQH15: phường Phú Xuân, Thuận Hoá, Kim Long, Thuỷ Xuân đều là phường mới hình thành sau sắp xếp",
+   "chao": "Sông Hương uốn lượn, núi Ngự Bình soi bóng. Chào mừng các bạn đến Cố đô Huế, thành phố Huế!",
+   "hs": [
+    {
+     "x": 800,
+     "y": 250,
+     "ten": "Ngọ Môn – Kinh thành",
+     "noi": "Kinh thành Huế được xây dựng từ thời nhà Nguyễn, gồm ba vòng thành: Kinh thành, Hoàng thành và Tử Cấm thành, kết hợp hài hoà kiến trúc phương Đông và phương Tây."
+    },
+    {
+     "x": 230,
+     "y": 260,
+     "ten": "Chùa Thiên Mụ",
+     "noi": "Cố đô Huế có nhiều công trình kiến trúc cổ kính như chùa Thiên Mụ, lăng tẩm của các vị vua triều Nguyễn."
+    },
+    {
+     "x": 1250,
+     "y": 560,
+     "ten": "Sông Hương, núi Ngự",
+     "noi": "Cảnh quan Cố đô Huế được tô điểm bởi dòng sông Hương uốn lượn quanh kinh thành. Núi Ngự Bình nằm cạnh sông Hương."
+    },
+    {
+     "x": 1380,
+     "y": 200,
+     "ten": "Chuyện lịch sử",
+     "noi": "Đêm mồng 4 rạng sáng mồng 5 tháng 7 năm 1885, Tôn Thất Thuyết chỉ huy quân ta tấn công quân Pháp. Chiều 30 tháng 8 năm 1945, trước cổng Ngọ Môn, vua Bảo Đại đọc chiếu thoái vị."
+    }
+   ],
+   "cau": [
+    {
+     "hoi": "Theo sách mới, Quần thể di tích Cố đô Huế thuộc đơn vị hành chính nào?",
+     "chon": [
+      [
+       "Thành phố Huế",
+       ""
+      ],
+      [
+       "Tỉnh Thừa Thiên Huế",
+       "hc"
+      ],
+      [
+       "Thành phố Đà Nẵng",
+       "noi"
+      ],
+      [
+       "Tỉnh Quảng Trị",
+       "noi"
+      ]
+     ]
+    },
+    {
+     "hoi": "Kinh thành Huế gồm mấy vòng thành?",
+     "chon": [
+      [
+       "Ba vòng thành",
+       ""
+      ],
+      [
+       "Hai vòng thành",
+       "y"
+      ],
+      [
+       "Bốn vòng thành",
+       "y"
+      ],
+      [
+       "Một vòng thành",
+       "y"
+      ]
+     ]
+    },
+    {
+     "hoi": "Chiều 30 tháng 8 năm 1945, trước cổng Ngọ Môn đã diễn ra sự kiện gì?",
+     "chon": [
+      [
+       "Vua Bảo Đại đọc chiếu thoái vị",
+       ""
+      ],
+      [
+       "Tôn Thất Thuyết tấn công quân Pháp",
+       "moc"
+      ],
+      [
+       "Nguyễn Tất Thành ra đi tìm đường cứu nước",
+       "noi"
+      ],
+      [
+       "Xe tăng húc đổ cổng Dinh Độc Lập",
+       "noi"
+      ]
+     ]
+    }
+   ],
+   "vr": [
+    {
+     "loai": "vr",
+     "ten": "Bản đồ số 360° Huế: Đại Nội, chùa Thiên Mụ, lăng tẩm, cầu Tràng Tiền…",
+     "url": "https://vr360.com.vn/projects/hue-tourist/",
+     "nguon": "Thực hiện: VR360 (vr360.com.vn)"
+    },
+    {
+     "loai": "video",
+     "ten": "Đại Nội Kinh thành Huế",
+     "url": "https://www.youtube.com/watch?v=7X8w2VUUT5U",
+     "nguon": "Báo Nhân Dân (Điểm đến) · YouTube"
+    }
+   ],
+   "hoi_dap": [
+    {
+     "cau": "Kinh thành Huế gồm mấy vòng thành?",
+     "goi_y": "Từ ngoài vào trong, mỗi vòng thành có một tên riêng.",
+     "dap": "Ba vòng thành: Kinh thành, Hoàng thành và Tử Cấm thành.",
+     "nguon": "SGK Lịch sử và Địa lí 4 (KNTT, bản 2026) · Bài 19, tr. 89",
+     "duyet": "cô duyệt trước khi dùng"
+    },
+    {
+     "cau": "Dòng sông nào uốn lượn quanh kinh thành Huế?",
+     "goi_y": "Tên sông có nghĩa là hương thơm.",
+     "dap": "Sông Hương.",
+     "nguon": "SGK Lịch sử và Địa lí 4 (KNTT, bản 2026) · Bài 19, tr. 89",
+     "duyet": "cô duyệt trước khi dùng"
+    }
+   ],
+   "nhanTrai": true
+  },
+  {
+   "id": "hoi-an",
+   "ten": "Phố cổ Hội An",
+   "icon": "🏮",
+   "vung": "btnt",
+   "bai": "Bài 20",
+   "sgk": "SGK tr. 92–94",
+   "lon": 108.33,
+   "lat": 15.88,
+   "dx": 4,
+   "dy": 6,
+   "nay": "Phường Hội An, thành phố Đà Nẵng — hạ lưu sông Thu Bồn",
+   "truoc": "Trước 01/7/2025: thành phố Hội An, tỉnh Quảng Nam · Căn cứ: NQ 202/2025/QH15 kh.10; NQ 1659/NQ-UBTVQH15 kh.21: phường Minh An, Cẩm Phô, Sơn Phong, Cẩm Nam và xã Cẩm Kim → phường Hội An",
+   "chao": "Đèn lồng đã sáng! Đây là phố cổ Hội An, phường Hội An, thành phố Đà Nẵng.",
+   "hs": [
+    {
+     "x": 820,
+     "y": 330,
+     "ten": "Chùa Cầu",
+     "noi": "Chùa Cầu tương truyền do thương nhân Nhật Bản ở Hội An xây dựng vào khoảng cuối thế kỉ 16, đầu thế kỉ 17, làm bằng gỗ, hình vòng cung, mái lợp ngói âm dương."
+    },
+    {
+     "x": 250,
+     "y": 300,
+     "ten": "Nhà cổ",
+     "noi": "Các nhà cổ được xây dựng từ thế kỉ 17 đến thế kỉ 19, phổ biến là nhà một tầng hoặc hai tầng, chiều ngang hẹp nhưng chiều sâu tương đối dài."
+    },
+    {
+     "x": 1350,
+     "y": 300,
+     "ten": "Hội quán người Hoa",
+     "noi": "Hội quán là nơi sinh hoạt cộng đồng và thờ các vị thần của người Hoa, tiêu biểu là các hội quán Phúc Kiến, Quảng Đông, Hải Nam."
+    },
+    {
+     "x": 1100,
+     "y": 560,
+     "ten": "Sông Thu Bồn",
+     "noi": "Phố cổ Hội An là một đô thị nằm ở hạ lưu sông Thu Bồn, thuộc phường Hội An, thành phố Đà Nẵng."
+    }
+   ],
+   "cau": [
+    {
+     "hoi": "Theo sách mới, phố cổ Hội An thuộc phường Hội An của đơn vị nào?",
+     "chon": [
+      [
+       "Thành phố Đà Nẵng",
+       ""
+      ],
+      [
+       "Tỉnh Quảng Nam",
+       "hc"
+      ],
+      [
+       "Thành phố Huế",
+       "noi"
+      ],
+      [
+       "Tỉnh Quảng Ngãi",
+       "noi"
+      ]
+     ]
+    },
+    {
+     "hoi": "Chùa Cầu tương truyền do ai xây dựng?",
+     "chon": [
+      [
+       "Thương nhân Nhật Bản ở Hội An",
+       ""
+      ],
+      [
+       "Người Hoa ở Hội An",
+       "nguoi"
+      ],
+      [
+       "Các vua nhà Nguyễn",
+       "nguoi"
+      ],
+      [
+       "Người Pháp",
+       "nguoi"
+      ]
+     ]
+    },
+    {
+     "hoi": "Phố cổ Hội An nằm ở hạ lưu con sông nào?",
+     "chon": [
+      [
+       "Sông Thu Bồn",
+       ""
+      ],
+      [
+       "Sông Hương",
+       "noi"
+      ],
+      [
+       "Sông Hồng",
+       "noi"
+      ],
+      [
+       "Sông Sài Gòn",
+       "noi"
+      ]
+     ]
+    }
+   ],
+   "vr": [
+    {
+     "loai": "vr",
+     "ten": "Hội An Metaverse – tham quan 360° phố cổ, nhà cổ",
+     "url": "https://vr360.com.vn/projects/hoian-metaverse/",
+     "nguon": "Thực hiện: VR360 (vr360.com.vn)"
+    },
+    {
+     "loai": "video",
+     "ten": "Cận cảnh diện mạo mới của Chùa Cầu sau đại trùng tu",
+     "url": "https://www.youtube.com/watch?v=ElvJqG5Qz8U",
+     "nguon": "VTV24 · YouTube"
+    },
+    {
+     "loai": "video",
+     "ten": "Chùa Cầu Hội An sau cuộc đại trùng tu gần 2 năm",
+     "url": "https://www.youtube.com/watch?v=0LD93y-Bd_s",
+     "nguon": "VNews (TTXVN) · YouTube"
+    }
+   ],
+   "hoi_dap": [
+    {
+     "cau": "Theo tương truyền, Chùa Cầu do ai xây dựng?",
+     "goi_y": "Người xây là thương nhân ở một nước láng giềng phía đông.",
+     "dap": "Thương nhân Nhật Bản ở Hội An.",
+     "nguon": "SGK Lịch sử và Địa lí 4 (KNTT, bản 2026) · Bài 20, tr. 94",
+     "duyet": "cô duyệt trước khi dùng"
+    },
+    {
+     "cau": "Phố cổ Hội An nằm ở hạ lưu sông nào?",
+     "goi_y": "Tên sông có chữ «Thu».",
+     "dap": "Sông Thu Bồn.",
+     "nguon": "SGK Lịch sử và Địa lí 4 (KNTT, bản 2026) · Bài 20, tr. 93",
+     "duyet": "cô duyệt trước khi dùng"
+    }
+   ],
+   "nhanTrai": false
+  },
+  {
+   "id": "cong-chieng",
+   "ten": "Cồng chiêng Tây Nguyên",
+   "icon": "🥁",
+   "vung": "btnt",
+   "bai": "Bài 21",
+   "sgk": "SGK tr. 96–97",
+   "lon": 108.04,
+   "lat": 12.67,
+   "dx": 0,
+   "dy": 0,
+   "nay": "Trải dài ở vùng núi cao phía tây thuộc bốn tỉnh: Quảng Ngãi, Gia Lai, Đắk Lắk và Lâm Đồng",
+   "truoc": "Trước 01/7/2025: năm tỉnh Tây Nguyên Kon Tum, Gia Lai, Đắk Lắk, Đắk Nông, Lâm Đồng. Sách mới học Tây Nguyên trong vùng Bắc Trung Bộ và Nam Trung Bộ · Căn cứ: NQ 202/2025/QH15 kh.11, 12, 14, 15 (Kon Tum, Bình Định, Đắk Nông, Phú Yên đã nhập vào tỉnh khác)",
+   "chao": "Nghe kìa, tiếng cồng chiêng vang vọng núi rừng! Chúng ta đang ở Không gian văn hoá Cồng chiêng Tây Nguyên.",
+   "hs": [
+    {
+     "x": 820,
+     "y": 430,
+     "ten": "Vòng xoang cồng chiêng",
+     "noi": "Chủ nhân của Không gian văn hoá Cồng chiêng Tây Nguyên gồm các dân tộc như: Ê Đê, Gia Rai, Ba Na, Mạ, Xơ Đăng, Cơ Ho, Mnông."
+    },
+    {
+     "x": 300,
+     "y": 230,
+     "ten": "Nhà cộng đồng",
+     "noi": "Cồng chiêng thường được sử dụng trong các nghi lễ, ngày hội và sinh hoạt cộng đồng như: lễ Mừng lúa mới, lễ Thổi tai cho trẻ sơ sinh, lễ Trưởng thành."
+    },
+    {
+     "x": 1300,
+     "y": 210,
+     "ten": "Di sản của nhân loại",
+     "noi": "Năm 2005, UNESCO đã ghi danh Không gian văn hoá Cồng chiêng Tây Nguyên là Kiệt tác truyền khẩu và phi vật thể của nhân loại."
+    },
+    {
+     "x": 1380,
+     "y": 520,
+     "ten": "Tiếng nói tâm hồn",
+     "noi": "Cồng chiêng gắn bó mật thiết với đồng bào các dân tộc Tây Nguyên, là tiếng nói của tâm hồn con người, diễn tả niềm vui, nỗi buồn của cuộc sống."
+    }
+   ],
+   "cau": [
+    {
+     "hoi": "Năm 2005, UNESCO ghi danh Không gian văn hoá Cồng chiêng Tây Nguyên là gì?",
+     "chon": [
+      [
+       "Kiệt tác truyền khẩu và phi vật thể của nhân loại",
+       ""
+      ],
+      [
+       "Di sản tư liệu thế giới",
+       "noi"
+      ],
+      [
+       "Di tích quốc gia đặc biệt",
+       "noi"
+      ],
+      [
+       "Biểu tượng của Thủ đô",
+       "noi"
+      ]
+     ]
+    },
+    {
+     "hoi": "Theo sách mới, Không gian văn hoá Cồng chiêng trải dài trên địa bàn những tỉnh nào?",
+     "chon": [
+      [
+       "Quảng Ngãi, Gia Lai, Đắk Lắk, Lâm Đồng",
+       ""
+      ],
+      [
+       "Kon Tum, Gia Lai, Đắk Lắk, Đắk Nông, Lâm Đồng",
+       "hc"
+      ],
+      [
+       "Phú Thọ, Tuyên Quang, Lào Cai, Lai Châu",
+       "vung"
+      ],
+      [
+       "Cần Thơ, Đồng Tháp, Vĩnh Long, An Giang",
+       "vung"
+      ]
+     ]
+    },
+    {
+     "hoi": "Những dân tộc nào là chủ nhân của Không gian văn hoá Cồng chiêng?",
+     "chon": [
+      [
+       "Ê Đê, Gia Rai, Ba Na, Xơ Đăng…",
+       ""
+      ],
+      [
+       "Mông, Tày, Nùng…",
+       "nguoi"
+      ],
+      [
+       "Người Hoa ở Hội An",
+       "nguoi"
+      ],
+      [
+       "Người Việt cổ thời Văn Lang",
+       "nguoi"
+      ]
+     ]
+    }
+   ],
+   "vr": [
+    {
+     "loai": "video",
+     "ten": "Lễ hội cồng chiêng Tây Nguyên",
+     "url": "https://www.youtube.com/watch?v=enE8Iy9NRw8",
+     "nguon": "VTV24 · YouTube"
+    },
+    {
+     "loai": "video",
+     "ten": "Bảo tồn và phát triển Không gian văn hoá cồng chiêng Tây Nguyên",
+     "url": "https://www.youtube.com/watch?v=84lsB8tn5eM",
+     "nguon": "Báo Nhân Dân · YouTube"
+    },
+    {
+     "loai": "video",
+     "ten": "Giữ lửa cho cồng chiêng Tây Nguyên",
+     "url": "https://www.youtube.com/watch?v=f_iShEjMCpI",
+     "nguon": "VTC16 · YouTube"
+    }
+   ],
+   "hoi_dap": [
+    {
+     "cau": "Năm nào UNESCO ghi danh Không gian văn hoá Cồng chiêng Tây Nguyên?",
+     "goi_y": "Năm đó thuộc những năm đầu thế kỉ 21, khi UNESCO ghi danh một kiệt tác của nhân loại.",
+     "dap": "Năm 2005, là Kiệt tác truyền khẩu và phi vật thể của nhân loại.",
+     "nguon": "SGK Lịch sử và Địa lí 4 (KNTT, bản 2026) · Bài 21, tr. 97",
+     "duyet": "cô duyệt trước khi dùng"
+    },
+    {
+     "cau": "Cồng chiêng thường được dùng trong dịp nào?",
+     "goi_y": "Dùng trong các nghi lễ và ngày hội.",
+     "dap": "Trong các nghi lễ, ngày hội như lễ Mừng lúa mới, lễ Trưởng thành…",
+     "nguon": "SGK Lịch sử và Địa lí 4 (KNTT, bản 2026) · Bài 21, tr. 96",
+     "duyet": "cô duyệt trước khi dùng"
+    }
+   ],
+   "nhanTrai": true
+  },
+  {
+   "id": "cho-noi",
+   "ten": "Chợ nổi Nam Bộ",
+   "icon": "🛶",
+   "vung": "nb",
+   "bai": "Bài 24",
+   "sgk": "SGK tr. 107–108",
+   "lon": 105.78,
+   "lat": 10.03,
+   "dx": -14,
+   "dy": 18,
+   "nay": "Cái Răng, Phong Điền, Phụng Hiệp, Ngã Năm (thành phố Cần Thơ); Cái Bè (tỉnh Đồng Tháp); Trà Ôn (tỉnh Vĩnh Long)",
+   "truoc": "Trước 01/7/2025: Phụng Hiệp thuộc tỉnh Hậu Giang, Ngã Năm thuộc tỉnh Sóc Trăng, Cái Bè thuộc tỉnh Tiền Giang · Căn cứ: NQ 202/2025/QH15 kh.19, 20, 21",
+   "chao": "Mặt trời lên trên sông nước miền Tây! Mời các bạn xuống ghe đi chợ nổi.",
+   "hs": [
+    {
+     "x": 820,
+     "y": 300,
+     "ten": "Hàng treo trên ghe",
+     "noi": "Hàng hoá được bán trên các ghe, xuồng, chủ yếu là nông sản và những vật dụng cần thiết. Trên mỗi ghe, xuồng có treo những loại hàng hoá cần bán."
+    },
+    {
+     "x": 300,
+     "y": 220,
+     "ten": "Nhà ở vùng sông nước",
+     "noi": "Ở vùng sông nước, phổ biến là kiểu nhà sàn, nhà nổi. Tại các miệt vườn, chủ yếu là nhà lợp bằng lá."
+    },
+    {
+     "x": 1330,
+     "y": 520,
+     "ten": "Ghe, xuồng",
+     "noi": "Giao thông đường thuỷ đóng vai trò quan trọng. Ghe, xuồng là phương tiện đi lại, vận chuyển hàng hoá chủ yếu ở đây."
+    },
+    {
+     "x": 1350,
+     "y": 330,
+     "ten": "Các chợ nổi lớn",
+     "noi": "Một số chợ nổi lớn ở Nam Bộ là: Cái Răng, Phong Điền, Phụng Hiệp, Ngã Năm thuộc thành phố Cần Thơ; Cái Bè thuộc tỉnh Đồng Tháp; Trà Ôn thuộc tỉnh Vĩnh Long."
+    }
+   ],
+   "cau": [
+    {
+     "hoi": "Ở chợ nổi, người bán cho khách biết mình bán gì bằng cách nào?",
+     "chon": [
+      [
+       "Treo hàng hoá cần bán trên ghe, xuồng",
+       ""
+      ],
+      [
+       "Dựng biển hiệu trên bờ",
+       "y"
+      ],
+      [
+       "Đánh cồng chiêng gọi khách",
+       "vung"
+      ],
+      [
+       "Dán giấy lên cầu",
+       "y"
+      ]
+     ]
+    },
+    {
+     "hoi": "Theo sách mới, chợ nổi Cái Bè thuộc tỉnh nào?",
+     "chon": [
+      [
+       "Tỉnh Đồng Tháp",
+       ""
+      ],
+      [
+       "Tỉnh Tiền Giang",
+       "hc"
+      ],
+      [
+       "Thành phố Cần Thơ",
+       "noi"
+      ],
+      [
+       "Tỉnh An Giang",
+       "noi"
+      ]
+     ]
+    },
+    {
+     "hoi": "Phương tiện đi lại, chở hàng chủ yếu ở vùng sông nước Nam Bộ là gì?",
+     "chon": [
+      [
+       "Ghe, xuồng",
+       ""
+      ],
+      [
+       "Xe ngựa",
+       "y"
+      ],
+      [
+       "Tàu hoả",
+       "y"
+      ],
+      [
+       "Đi bộ qua núi",
+       "vung"
+      ]
+     ]
+    }
+   ],
+   "vr": [
+    {
+     "loai": "vr",
+     "ten": "Du lịch Cần Thơ 360°: chợ nổi Cái Răng, bến Ninh Kiều…",
+     "url": "https://vr360.com.vn/projects/cantho-virtual-tourist/",
+     "nguon": "Thực hiện: VR360 (vr360.com.vn)"
+    },
+    {
+     "loai": "video",
+     "ten": "Chợ nổi Cái Răng, Cần Thơ – Dấu ấn miền Tây sông nước",
+     "url": "https://www.youtube.com/watch?v=p_OEtA6bPnM",
+     "nguon": "VTC10 · YouTube"
+    },
+    {
+     "loai": "video",
+     "ten": "Về Cần Thơ tham quan chợ nổi Cái Răng",
+     "url": "https://www.youtube.com/watch?v=oRbQnITj5Rw",
+     "nguon": "Cần Thơ TV · YouTube"
+    }
+   ],
+   "hoi_dap": [
+    {
+     "cau": "Trên chợ nổi, người bán cho khách biết mình bán gì bằng cách nào?",
+     "goi_y": "Nhìn lên phía trên ghe, xuồng.",
+     "dap": "Treo hàng hoá cần bán trên ghe, xuồng.",
+     "nguon": "SGK Lịch sử và Địa lí 4 (KNTT, bản 2026) · Bài 24, tr. 108",
+     "duyet": "cô duyệt trước khi dùng"
+    },
+    {
+     "cau": "Phương tiện đi lại và vận chuyển hàng hoá chủ yếu ở vùng sông nước Nam Bộ là gì?",
+     "goi_y": "Đó là những chiếc thuyền nhỏ có mái.",
+     "dap": "Ghe, xuồng.",
+     "nguon": "SGK Lịch sử và Địa lí 4 (KNTT, bản 2026) · Bài 24, tr. 108",
+     "duyet": "cô duyệt trước khi dùng"
+    }
+   ],
+   "nhanTrai": true
+  },
+  {
+   "id": "tphcm",
+   "ten": "TP. Hồ Chí Minh",
+   "icon": "⭐",
+   "vung": "nb",
+   "bai": "Bài 25",
+   "sgk": "SGK tr. 111–114",
+   "lon": 106.7,
+   "lat": 10.78,
+   "dx": 34,
+   "dy": 8,
+   "nay": "Đô thị lớn nhất nước ta, thuộc Đông Nam Bộ; tiếp giáp Đồng Nai, Lâm Đồng, Tây Ninh, Đồng Tháp và Biển Đông",
+   "truoc": "Theo Nghị quyết 202/2025/QH15 (Điều 1, khoản 16): TP. Hồ Chí Minh sáp nhập thêm tỉnh Bình Dương và tỉnh Bà Rịa – Vũng Tàu; sau sắp xếp diện tích 6.772,59 km², dân số 14.002.598 người; giáp Đồng Nai, Đồng Tháp, Lâm Đồng, Tây Ninh và Biển Đông",
+   "chao": "Về tới thành phố mang tên Bác, thành phố của chúng mình! Hôm nay ta đi Bến Nhà Rồng và Dinh Độc Lập.",
+   "hs": [
+    {
+     "x": 330,
+     "y": 330,
+     "ten": "Bến Nhà Rồng",
+     "noi": "Ngày 5 tháng 6 năm 1911, trên con tàu Đô đốc La-tu-sơ Tơ-rê-vin, Nguyễn Tất Thành với tên gọi là Văn Ba đã rời Bến Nhà Rồng ra đi tìm đường cứu nước, cứu dân."
+    },
+    {
+     "x": 1150,
+     "y": 230,
+     "ten": "Dinh Độc Lập",
+     "noi": "Ngày 30 tháng 4 năm 1975, xe tăng 390 húc đổ cổng chính Dinh Độc Lập. Đúng 11 giờ 30 phút, lá cờ cách mạng tung bay trên nóc Dinh."
+    },
+    {
+     "x": 560,
+     "y": 190,
+     "ten": "Những tên gọi",
+     "noi": "Thành phố có các tên gọi khác nhau như: Gia Định, Sài Gòn, Sài Gòn – Chợ Lớn, Sài Gòn – Gia Định; năm 1976 được đổi tên là Thành phố Hồ Chí Minh."
+    },
+    {
+     "x": 1450,
+     "y": 470,
+     "ten": "Trung tâm kinh tế",
+     "noi": "Thành phố Hồ Chí Minh là trung tâm kinh tế hàng đầu của đất nước, có Trung tâm tài chính quốc tế lớn nhất Việt Nam, nhiều khu công nghiệp, cảng biển lớn."
+    }
+   ],
+   "cau": [
+    {
+     "hoi": "Ngày 5 tháng 6 năm 1911, Nguyễn Tất Thành rời bến nào ra đi tìm đường cứu nước?",
+     "chon": [
+      [
+       "Bến Nhà Rồng",
+       ""
+      ],
+      [
+       "Dinh Độc Lập",
+       "noi"
+      ],
+      [
+       "Cửa Ba Lạt",
+       "noi"
+      ],
+      [
+       "Chợ nổi Cái Răng",
+       "noi"
+      ]
+     ]
+    },
+    {
+     "hoi": "Năm nào thành phố được đổi tên là Thành phố Hồ Chí Minh?",
+     "chon": [
+      [
+       "Năm 1976",
+       ""
+      ],
+      [
+       "Năm 1975",
+       "moc"
+      ],
+      [
+       "Năm 1911",
+       "moc"
+      ],
+      [
+       "Năm 2025",
+       "moc"
+      ]
+     ]
+    },
+    {
+     "hoi": "Từ tháng 7 năm 2025, Thành phố Hồ Chí Minh sáp nhập thêm những tỉnh nào?",
+     "chon": [
+      [
+       "Bình Dương và Bà Rịa – Vũng Tàu",
+       ""
+      ],
+      [
+       "Long An và Tiền Giang",
+       "hc"
+      ],
+      [
+       "Đồng Nai và Lâm Đồng",
+       "hc"
+      ],
+      [
+       "Không thay đổi gì",
+       "hc"
+      ]
+     ]
+    }
+   ],
+   "vr": [
+    {
+     "loai": "vr",
+     "ten": "Tham quan VR 360° Di tích Dinh Độc Lập (trang chính thức)",
+     "url": "https://thamquanvr360.dinhdoclap.gov.vn/",
+     "nguon": "Di tích quốc gia đặc biệt Dinh Độc Lập — dinhdoclap.gov.vn"
+    },
+    {
+     "loai": "vr",
+     "ten": "Tham quan 360° Bến Nhà Rồng – Bảo tàng Hồ Chí Minh",
+     "url": "https://duan.vrtour360.vn/BenNhaRong/",
+     "nguon": "Thực hiện: VRTour360"
+    },
+    {
+     "loai": "vr",
+     "ten": "Bảo tàng 3D Bến Nhà Rồng (có chế độ VR)",
+     "url": "https://sanpham.starglobal3d.com/smart-museum-3d/ben-nha-rong/",
+     "nguon": "Thực hiện: StarGlobal 3D"
+    },
+    {
+     "loai": "vr",
+     "ten": "Bản đồ du lịch 3D/360 TP. Hồ Chí Minh",
+     "url": "https://map3d.visithcmc.vn/",
+     "nguon": "Sở Du lịch TP. Hồ Chí Minh"
+    },
+    {
+     "loai": "video",
+     "ten": "Bến Nhà Rồng – nơi lưu dấu bước chân khởi đầu hành trình của Chủ tịch Hồ Chí Minh",
+     "url": "https://www.youtube.com/watch?v=u0-QZEpkdCI",
+     "nguon": "THVL 24News · YouTube"
+    }
+   ],
+   "hoi_dap": [
+    {
+     "cau": "Ngày 5 tháng 6 năm 1911, Nguyễn Tất Thành rời bến nào để đi tìm đường cứu nước?",
+     "goi_y": "Tên bến có chữ «Nhà Rồng».",
+     "dap": "Bến Nhà Rồng.",
+     "nguon": "SGK Lịch sử và Địa lí 4 (KNTT, bản 2026) · Bài 25, tr. 113",
+     "duyet": "cô duyệt trước khi dùng"
+    },
+    {
+     "cau": "Năm nào thành phố được đổi tên là Thành phố Hồ Chí Minh?",
+     "goi_y": "Năm sau năm 1975.",
+     "dap": "Năm 1976.",
+     "nguon": "SGK Lịch sử và Địa lí 4 (KNTT, bản 2026) · Bài 25, tr. 112",
+     "duyet": "cô duyệt trước khi dùng"
+    }
+   ],
+   "nhanTrai": false
+  },
+  {
+   "id": "cu-chi",
+   "ten": "Địa đạo Củ Chi",
+   "icon": "🕳️",
+   "vung": "nb",
+   "bai": "Bài 26",
+   "sgk": "SGK tr. 117–118",
+   "lon": 106.46,
+   "lat": 11.06,
+   "dx": -30,
+   "dy": -30,
+   "nay": "Thành phố Hồ Chí Minh: Địa đạo Bến Dược (xã An Nhơn Tây) và Địa đạo Bến Đình (xã Nhuận Đức)",
+   "truoc": "Trước 01/7/2025: thuộc huyện Củ Chi, Thành phố Hồ Chí Minh · Căn cứ: NQ 1685/NQ-UBTVQH15 kh.126–127: xã Phú Mỹ Hưng + An Phú + An Nhơn Tây → xã An Nhơn Tây; xã Phạm Văn Cội + Trung Lập Hạ + Nhuận Đức → xã Nhuận Đức",
+   "chao": "Cúi thấp người nào các bạn! Chúng ta chuẩn bị xuống Địa đạo Củ Chi. Kéo thanh trượt để đi sâu xuống lòng đất.",
+   "hs": [
+    {
+     "x": 300,
+     "y": 300,
+     "ten": "Hầm cứu thương",
+     "noi": "Trong địa đạo có các hầm rộng để nghỉ ngơi, cứu thương; nơi dự trữ vũ khí, lương thực; giếng nước; bếp Hoàng Cầm; hầm chỉ huy."
+    },
+    {
+     "x": 1080,
+     "y": 360,
+     "ten": "Bếp Hoàng Cầm",
+     "noi": "Bếp Hoàng Cầm được đào dưới đất, có hố đun và hệ thống rãnh dẫn khói, tản khói giúp nấu ăn mà không bị kẻ địch phát hiện."
+    },
+    {
+     "x": 760,
+     "y": 520,
+     "ten": "Ba tầng địa đạo",
+     "noi": "Địa đạo gồm ba tầng, nằm sâu dưới lòng đất từ 3 mét đến 12 mét, dài khoảng 250 ki-lô-mét. Đường lên xuống giữa các tầng là các nắp hầm bí mật."
+    },
+    {
+     "x": 1440,
+     "y": 150,
+     "ten": "Cách đào hầm",
+     "noi": "Từ đáy một cái giếng sâu 3 mét, người ta dùng cuốc khoét đường hầm, cứ cách 16 mét lại tạo một giếng. Hai đội đào ngược hướng nhau, dựa vào tiếng đục để xác định hướng."
+    }
+   ],
+   "cau": [
+    {
+     "hoi": "Địa đạo Củ Chi nằm sâu dưới lòng đất khoảng bao nhiêu mét?",
+     "chon": [
+      [
+       "Từ 3 m đến 12 m",
+       ""
+      ],
+      [
+       "Từ 30 m đến 120 m",
+       "y"
+      ],
+      [
+       "Khoảng 556 m",
+       "noi"
+      ],
+      [
+       "Khoảng 1 m",
+       "y"
+      ]
+     ]
+    },
+    {
+     "hoi": "Bếp Hoàng Cầm có điều gì đặc biệt?",
+     "chon": [
+      [
+       "Có rãnh dẫn khói, tản khói để địch không phát hiện",
+       ""
+      ],
+      [
+       "Nấu bằng điện",
+       "y"
+      ],
+      [
+       "Đặt trên mặt đất cho nhanh",
+       "y"
+      ],
+      [
+       "Dùng để rèn vũ khí",
+       "y"
+      ]
+     ]
+    },
+    {
+     "hoi": "Theo sách mới, Địa đạo Bến Dược thuộc xã nào?",
+     "chon": [
+      [
+       "Xã An Nhơn Tây",
+       ""
+      ],
+      [
+       "Xã Nhuận Đức",
+       "noi"
+      ],
+      [
+       "Huyện Củ Chi",
+       "hc"
+      ],
+      [
+       "Phường Hòa Hưng",
+       "noi"
+      ]
+     ]
+    }
+   ],
+   "vr": [
+    {
+     "loai": "vr",
+     "ten": "Bản đồ du lịch 3D/360 TP. Hồ Chí Minh — chọn «Địa đạo Củ Chi»",
+     "url": "https://map3d.visithcmc.vn/",
+     "nguon": "Sở Du lịch TP. Hồ Chí Minh"
+    },
+    {
+     "loai": "video",
+     "ten": "Địa đạo Củ Chi – Dấu ấn lịch sử trong lòng đất",
+     "url": "https://www.youtube.com/watch?v=OJgL3_Zlwik",
+     "nguon": "Ấn tượng VTV (Đẹp +84) · YouTube"
+    },
+    {
+     "loai": "video",
+     "ten": "Địa đạo Củ Chi – 250 km lịch sử",
+     "url": "https://www.youtube.com/watch?v=i2bRpeUGTTE",
+     "nguon": "VTV24 · YouTube"
+    }
+   ],
+   "hoi_dap": [
+    {
+     "cau": "Địa đạo Củ Chi nằm sâu dưới lòng đất khoảng bao nhiêu mét?",
+     "goi_y": "Địa đạo có nhiều tầng; tầng nông nhất cách mặt đất vài mét.",
+     "dap": "Từ 3 m đến 12 m, gồm ba tầng.",
+     "nguon": "SGK Lịch sử và Địa lí 4 (KNTT, bản 2026) · Bài 26, tr. 117",
+     "duyet": "cô duyệt trước khi dùng"
+    },
+    {
+     "cau": "Bếp Hoàng Cầm có điều gì đặc biệt?",
+     "goi_y": "Có hệ thống rãnh để khói tản đi xa.",
+     "dap": "Có rãnh dẫn khói, tản khói ra xa để kẻ địch khó phát hiện.",
+     "nguon": "SGK Lịch sử và Địa lí 4 (KNTT, bản 2026) · Bài 26, tr. 118",
+     "duyet": "cô duyệt trước khi dùng"
+    }
+   ],
+   "nhanTrai": true
+  }
+ ],
+ "moc": [
+  {
+   "nam": "Khoảng 2 700 năm trước",
+   "so": -700,
+   "noi": "Trên lưu vực sông Hồng, sông Mã, sông Cả hình thành nền văn minh đầu tiên của người Việt cổ",
+   "id": "song-hong"
+  },
+  {
+   "nam": "1010",
+   "so": 1010,
+   "noi": "Lý Thái Tổ dời đô từ Hoa Lư về Đại La, đổi tên Thăng Long",
+   "id": "thang-long"
+  },
+  {
+   "nam": "1397",
+   "so": 1397,
+   "noi": "Thăng Long mang tên Đông Đô",
+   "id": "thang-long"
+  },
+  {
+   "nam": "1408",
+   "so": 1408,
+   "noi": "Thăng Long mang tên Đông Quan",
+   "id": "thang-long"
+  },
+  {
+   "nam": "1428",
+   "so": 1428,
+   "noi": "Thăng Long mang tên Đông Kinh",
+   "id": "thang-long"
+  },
+  {
+   "nam": "Cuối TK 16 – đầu TK 17",
+   "so": 1600,
+   "noi": "Chùa Cầu được xây dựng (tương truyền)",
+   "id": "hoi-an"
+  },
+  {
+   "nam": "1831",
+   "so": 1831,
+   "noi": "Thăng Long mang tên Hà Nội",
+   "id": "thang-long"
+  },
+  {
+   "nam": "5-7-1885",
+   "so": 1885,
+   "noi": "Đêm mồng 4 rạng sáng mồng 5-7-1885: Tôn Thất Thuyết lãnh đạo quân ta tấn công đồn Mang Cá và toà Khâm sứ Pháp ở Kinh thành Huế",
+   "id": "hue"
+  },
+  {
+   "nam": "5-6-1911",
+   "so": 1911,
+   "noi": "Nguyễn Tất Thành rời Bến Nhà Rồng ra đi tìm đường cứu nước",
+   "id": "tphcm"
+  },
+  {
+   "nam": "23-8-1945",
+   "so": 1945.64,
+   "noi": "Nhân dân Huế giành được chính quyền",
+   "id": "hue"
+  },
+  {
+   "nam": "30-8-1945",
+   "so": 1945.66,
+   "noi": "Vua Bảo Đại đọc chiếu thoái vị trước cổng Ngọ Môn, Huế",
+   "id": "hue"
+  },
+  {
+   "nam": "30-4-1975",
+   "so": 1975,
+   "noi": "Xe tăng 390 húc đổ cổng chính Dinh Độc Lập; 11 giờ 30 phút, cờ cách mạng tung bay trên nóc Dinh",
+   "id": "tphcm"
+  },
+  {
+   "nam": "1976",
+   "so": 1976,
+   "noi": "Thành phố được đổi tên là Thành phố Hồ Chí Minh",
+   "id": "tphcm"
+  },
+  {
+   "nam": "1990",
+   "so": 1990,
+   "noi": "Chùa Cầu được công nhận Di tích lịch sử – văn hoá quốc gia",
+   "id": "hoi-an"
+  },
+  {
+   "nam": "1999",
+   "so": 1999,
+   "noi": "Khuê Văn Các được chọn là biểu tượng của Thủ đô Hà Nội",
+   "id": "van-mieu"
+  },
+  {
+   "nam": "2005",
+   "so": 2005,
+   "noi": "UNESCO ghi danh Không gian văn hoá Cồng chiêng Tây Nguyên",
+   "id": "cong-chieng"
+  },
+  {
+   "nam": "2010",
+   "so": 2010,
+   "noi": "82 bia Tiến sĩ được UNESCO ghi danh Di sản tư liệu thế giới",
+   "id": "van-mieu"
+  },
+  {
+   "nam": "2012",
+   "so": 2012,
+   "noi": "Khu di tích Văn Miếu – Quốc Tử Giám được công nhận Di tích quốc gia đặc biệt",
+   "id": "van-mieu"
+  },
+  {
+   "nam": "7-2025",
+   "so": 2025,
+   "noi": "Thành phố Hồ Chí Minh được mở rộng sau khi sáp nhập thêm tỉnh Bình Dương và tỉnh Bà Rịa – Vũng Tàu",
+   "id": "tphcm"
+  }
+ ]
+}
