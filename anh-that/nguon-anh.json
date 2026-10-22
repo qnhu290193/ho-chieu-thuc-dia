@@ -1,0 +1,110 @@
+[
+ {
+  "id": "lung-cu",
+  "tep": "anh-that/lung-cu-1.jpg",
+  "chu_thich": "Cột cờ Lũng Cú trên đỉnh núi Rồng",
+  "tac_gia": "Khoitran1957",
+  "giay_phep": "CC BY-SA 4.0",
+  "link_giay_phep": "https://creativecommons.org/licenses/by-sa/4.0",
+  "nguon": "https://commons.wikimedia.org/wiki/File:To%C3%A0n_c%E1%BA%A3nh.jpg"
+ },
+ {
+  "id": "den-hung",
+  "tep": "anh-that/den-hung-1.jpg",
+  "chu_thich": "Đền Thượng, khu di tích Đền Hùng",
+  "tac_gia": "Thang Nguyen from Nottingham, United Kingdom",
+  "giay_phep": "CC BY-SA 2.0",
+  "link_giay_phep": "https://creativecommons.org/licenses/by-sa/2.0",
+  "nguon": "https://commons.wikimedia.org/wiki/File:%C4%90%E1%BB%81n_H%C3%B9ng,_%C4%91%E1%BB%81n_Th%C6%B0%E1%BB%A3ng.jpg"
+ },
+ {
+  "id": "song-hong",
+  "tep": "anh-that/song-hong-1.jpg",
+  "chu_thich": "Sông Hồng chảy qua Hà Nội, phía xa là cầu Long Biên",
+  "tac_gia": "Vyacheslav Argenberg",
+  "giay_phep": "CC BY 4.0",
+  "link_giay_phep": "https://creativecommons.org/licenses/by/4.0",
+  "nguon": "https://commons.wikimedia.org/wiki/File:Vietnam,_Hanoi,_Panoramic_view_of_Red_River.jpg"
+ },
+ {
+  "id": "thang-long",
+  "tep": "anh-that/thang-long-1.jpg",
+  "chu_thich": "Khu trung tâm Hoàng thành Thăng Long (Hà Nội)",
+  "tac_gia": "katiebordner",
+  "giay_phep": "CC BY 2.0",
+  "link_giay_phep": "https://creativecommons.org/licenses/by/2.0",
+  "nguon": "https://commons.wikimedia.org/wiki/File:Central_Sector_of_the_Imperial_Citadel_of_Thang_Long_-_Hanoi.jpg"
+ },
+ {
+  "id": "van-mieu",
+  "tep": "anh-that/van-mieu-1.jpg",
+  "chu_thich": "Khuê Văn Các, Văn Miếu – Quốc Tử Giám",
+  "tac_gia": "Phuongcacanh at Vietnamese Wikipedia",
+  "giay_phep": "Public domain",
+  "link_giay_phep": "",
+  "nguon": "https://commons.wikimedia.org/wiki/File:Khu%C3%AA_v%C4%83n_c%C3%A1c.jpg"
+ },
+ {
+  "id": "hue",
+  "tep": "anh-that/hue-1.jpg",
+  "chu_thich": "Ngọ Môn, Kinh thành Huế",
+  "tac_gia": "Chainwit.",
+  "giay_phep": "CC BY 4.0",
+  "link_giay_phep": "https://creativecommons.org/licenses/by/4.0",
+  "nguon": "https://commons.wikimedia.org/wiki/File:Hu%E1%BA%BF_(2024)_-_Meridian_Gate_-_Ng%E1%BB%8D_M%C3%B4n_(Ho%C3%A0ng_th%C3%A0nh_Hu%E1%BA%BF)_-_img_02.jpg"
+ },
+ {
+  "id": "hoi-an",
+  "tep": "anh-that/hoi-an-1.jpg",
+  "chu_thich": "Chùa Cầu, phố cổ Hội An",
+  "tac_gia": "Steffen Schmitz",
+  "giay_phep": "CC BY-SA 4.0",
+  "link_giay_phep": "https://creativecommons.org/licenses/by-sa/4.0",
+  "nguon": "https://commons.wikimedia.org/wiki/File:H%E1%BB%99i_An,_Ch%C3%B9a_C%E1%BA%A7u,_2020-01_CN-03.jpg"
+ },
+ {
+  "id": "cong-chieng",
+  "tep": "anh-that/cong-chieng-1.jpg",
+  "chu_thich": "Bộ cồng chiêng trưng bày trong bảo tàng",
+  "tac_gia": "Bùi Thụy Đào Nguyên",
+  "giay_phep": "CC BY-SA 3.0",
+  "link_giay_phep": "https://creativecommons.org/licenses/by-sa/3.0",
+  "nguon": "https://commons.wikimedia.org/wiki/File:B%E1%BB%99_c%E1%BB%93ng_chi%C3%AAng.jpg"
+ },
+ {
+  "id": "cho-noi",
+  "tep": "anh-that/cho-noi-1.jpg",
+  "chu_thich": "Chợ nổi Cái Răng (thành phố Cần Thơ)",
+  "tac_gia": "Phương Huy",
+  "giay_phep": "CC BY-SA 4.0",
+  "link_giay_phep": "https://creativecommons.org/licenses/by-sa/4.0",
+  "nguon": "https://commons.wikimedia.org/wiki/File:Ch%E1%BB%A3_n%E1%BB%95i_C%C3%A1i_R%C4%83ng,_ng%C3%A0y_23_th%C3%A1ng_5_n%C4%83m_2014_(6).jpg"
+ },
+ {
+  "id": "tphcm",
+  "tep": "anh-that/tphcm-1.jpg",
+  "chu_thich": "Dinh Độc Lập (Thành phố Hồ Chí Minh)",
+  "tac_gia": "Balon Greyjoy",
+  "giay_phep": "CC0",
+  "link_giay_phep": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+  "nguon": "https://commons.wikimedia.org/wiki/File:20190923_Independence_Palace-10.jpg"
+ },
+ {
+  "id": "tphcm",
+  "tep": "anh-that/tphcm-2.jpg",
+  "chu_thich": "Bến Nhà Rồng – nay là Bảo tàng Hồ Chí Minh, chi nhánh TP. Hồ Chí Minh",
+  "tac_gia": "Gary Todd",
+  "giay_phep": "CC0",
+  "link_giay_phep": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+  "nguon": "https://commons.wikimedia.org/wiki/File:Ho_Chi_Minh_Museum,_Saigon.jpg"
+ },
+ {
+  "id": "cu-chi",
+  "tep": "anh-that/cu-chi-1.jpg",
+  "chu_thich": "Một góc khu di tích Địa đạo Củ Chi",
+  "tac_gia": "Phương Huy",
+  "giay_phep": "Public domain",
+  "link_giay_phep": "",
+  "nguon": "https://commons.wikimedia.org/wiki/File:W_C%E1%BB%A7_Chi_%C4%90%E1%BB%8Ba_%C4%91%E1%BA%A1o_C%E1%BB%A7_Chi_5.JPG"
+ }
+]
