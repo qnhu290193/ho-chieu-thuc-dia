@@ -478,7 +478,7 @@ const KHO = "hoChieuThucDia4_v1";
 let kho = {to:0, nhat:[], tem:{}, link:{}};
 try { const s = localStorage.getItem(KHO); if (s) kho = Object.assign(kho, JSON.parse(s)); } catch(e){}
 function duyetXong(v){ kho.duyet = !!v; luu(); hienChan(); }
-function hienChan(){ const x = !!kho.duyet || document.documentElement.classList.contains("chup"); $("#chanNhap").style.display = x ? "none" : ""; $("#chanXong").style.display = x ? "" : "none"; }
+function hienChan(){ const x = kho.duyet !== false || document.documentElement.classList.contains("chup"); $("#chanNhap").style.display = x ? "none" : ""; $("#chanXong").style.display = x ? "" : "none"; }
 function luu(){ try { localStorage.setItem(KHO, JSON.stringify(kho)); } catch(e){} }
 let mau = false;                       // dữ liệu thử
 function duLieu(){ return mau ? duLieuThu() : kho; }
