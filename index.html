@@ -37,6 +37,9 @@ button{font:inherit;cursor:pointer}
 .to-chon{display:flex;gap:4px;align-items:center;background:#fff;border-radius:14px;padding:4px;box-shadow:0 4px 12px rgba(29,39,66,.08)}
 .to-chon b{font-size:12px;color:var(--chu2);padding:0 6px}
 .to-chon button{border:0;border-radius:10px;padding:7px 10px;background:transparent;font-weight:800;color:var(--chu2)}
+.to-chon .so-to{display:flex;align-items:center;gap:4px;font-size:12px;font-weight:700;color:var(--chu2);padding:0 6px;border-right:1px solid #e2e8f0;margin-right:2px}
+.so-to input{width:46px;font:inherit;font-size:15px;font-weight:900;text-align:center;border:2px solid #dbe3ef;border-radius:8px;padding:3px 2px;color:var(--chu)}
+.to-chon{flex-wrap:wrap}
 .to-chon button.dang{background:linear-gradient(135deg,#ffb53d,#e2683c);color:#fff}
 main{padding:16px 18px 64px;max-width:1500px;margin:0 auto}
 .man{display:none;animation:hien .3s ease}
@@ -390,7 +393,7 @@ table{border-collapse:collapse;width:100%;font-size:14.5px} td,th{padding:6px 8p
       <div class="td-nut">
         <span class="td-ky"><button class="nut nho" id="kyNay" onclick="doiKyThiDua('nay')">Hôm nay</button><button class="nut nho" id="kyDot" onclick="doiKyThiDua('dot')">Cả đợt</button></span>
         <button class="nut chinh" onclick="congBoThiDua()">🎉 Công bố kết quả</button>
-        <button class="nut nho" onclick="inHoChieu('to')">🛂 In hộ chiếu có dấu (4 tổ)</button>
+        <button class="nut nho" onclick="inHoChieu('to')">🛂 In hộ chiếu có dấu (<span class="so-to-chu">4</span> tổ)</button>
         <button class="nut nho" onclick="inHoChieu('trang')">🖨️ In hộ chiếu trắng</button>
       </div>
     </div>
@@ -438,7 +441,7 @@ table{border-collapse:collapse;width:100%;font-size:14.5px} td,th{padding:6px 8p
   <div style="position:relative" id="mayBao"><video id="mayVideo" autoplay playsinline muted></video>
   <canvas class="xem" id="mayDemo" width="320" height="240" style="display:none"></canvas><div class="khung-chu" id="mayKhung"></div><div id="mayMa"></div></div>
   <div style="display:flex;gap:8px;align-items:center;margin-top:6px" id="mayDuoi"><canvas id="mayThay" width="14" height="14" style="width:56px;height:56px;image-rendering:pixelated;background:#fff;border:2px solid #cbd5e1;border-radius:8px"></canvas><span class="mo-nhat" id="mayThayTT" style="font-size:12.5px;flex:1">Máy chưa thấy thẻ màu nào.</span><button class="nut nho chi-mau" style="min-height:32px;padding:4px 8px" onclick="xoaMau()">🗑️ Xoá mẫu</button></div>
-  <div class="mo-nhat chi-ma" style="font-size:12.5px;margin-top:6px">Mỗi tổ một bộ <b>thẻ mã</b> A, B, C, D in từ app — <button class="nut nho" style="min-height:26px;padding:2px 8px" onclick="inTheMa()">🖨️ In thẻ mã 4 tổ</button>. Mã trên thẻ cho máy biết <b>tổ nào</b> giơ <b>chữ gì</b>, nên cô không cần chọn tổ. Cô dùng <b>điện thoại làm camera</b> (chọn camera điện thoại ở ô trên), đi tới từng tổ, hướng vào thẻ ~1 giây: nghe «tít» là đã nhận. Thấy nhiều thẻ cùng lúc thì nhận cùng lúc. Tổ đổi ý thì giơ thẻ khác, máy ghi lại — trước khi cô công bố.</div>
+  <div class="mo-nhat chi-ma" style="font-size:12.5px;margin-top:6px">Mỗi tổ một bộ <b>thẻ mã</b> A, B, C, D in từ app — <button class="nut nho" style="min-height:26px;padding:2px 8px" onclick="inTheMa()">🖨️ In thẻ mã <span class="so-to-chu">4</span> tổ</button>. Mã trên thẻ cho máy biết <b>tổ nào</b> giơ <b>chữ gì</b>, nên cô không cần chọn tổ. Cô dùng <b>điện thoại làm camera</b> (chọn camera điện thoại ở ô trên), đi tới từng tổ, hướng vào thẻ ~1 giây: nghe «tít» là đã nhận. Thấy nhiều thẻ cùng lúc thì nhận cùng lúc. Tổ đổi ý thì giơ thẻ khác, máy ghi lại — trước khi cô công bố.</div>
   <div class="mo-nhat chi-mau" style="font-size:12.5px;margin-top:6px">Dùng <b>thẻ màu in từ app</b> (A đỏ · B xanh dương · C vàng · D xanh lá) — <button class="nut nho" style="min-height:26px;padding:2px 8px" onclick="inTheMau()">🖨️ In thẻ màu</button>. Máy <b>biết sẵn 4 màu</b>, giơ thẻ là nhận. Muốn chắc hơn: giơ thẻ, <b>giữ</b> nút cùng màu 3 giây (khung xanh ôm đúng thẻ); cất thẻ, giữ <b>«Nền»</b> 3 giây để máy nhớ áo, khăn quàng của lớp. Máy tự nhớ cho các buổi sau. Chỉ nhớ vài con số về màu, không lưu ảnh, không gửi đi.</div>
   <div class="lop-hoc chi-mau" id="lopHoc"></div>
   <div class="cot-tin chi-mau" id="cotTin"></div>
@@ -470,15 +473,31 @@ addEventListener("error", e => baoLoi(e.error || e.message));
 addEventListener("unhandledrejection", e => baoLoi(e.reason));
 const DIEM = DL.diem, VUNG = DL.vung, LOI = DL.loi;
 const timDiem = id => DIEM.find(d => d.id === id);
-const MAU_TO = ["#ef4444","#3b82f6","#eab308","#22c55e"];
+const MAU_TO = ["#ef4444","#3b82f6","#eab308","#22c55e","#a855f7","#ec4899","#14b8a6","#f97316"];   // đủ cho 8 tổ
 const CHU = ["A","B","C","D"], MAU_CHU = ["var(--A)","var(--B)","var(--C)","var(--D)"];
 
 /* ---------- Lưu trữ (chỉ tên tổ) ---------- */
 const KHO = "hoChieuThucDia4_v1";
 let kho = {to:0, nhat:[], tem:{}, link:{}};
 try { const s = localStorage.getItem(KHO); if (s) kho = Object.assign(kho, JSON.parse(s)); } catch(e){}
+/* ---------- Số tổ: cô nhập theo cách chia của lớp mình (2–8 tổ) ---------- */
+const TO_TOI_DA = 8, SO_CHU = ["","một","hai","ba","bốn","năm","sáu","bảy","tám"];
+const soTo = () => Math.min(TO_TOI_DA, Math.max(2, Math.round(+kho.soTo) || 4));
+const dsTo = n => [...Array(n).keys()];
+function toCoDL(D){   // các tổ cần hiện: theo số tổ cô nhập, cộng thêm tổ nào đã có dữ liệu (đổi số tổ không làm mất kết quả cũ)
+  let n = soTo(); D.nhat.forEach(x => n = Math.max(n, x.to)); Object.keys(D.tem).forEach(t => { if (Object.keys(D.tem[t] || {}).length) n = Math.max(n, +t + 1); });
+  return dsTo(Math.min(TO_TOI_DA, n));
+}
+function doiSoTo(v){
+  const n = Math.min(TO_TOI_DA, Math.max(2, Math.round(+v) || 4)); kho.soTo = n;
+  if (kho.to >= n) kho.to = 0;
+  if (nv) ["tl","kq"].forEach(k => nv[k] = nv[k].map(a => dsTo(n).map(t => a[t] === undefined ? null : a[t])));   // câu đang làm: thêm ô cho tổ mới / bỏ tổ thừa
+  luu(); capNhat();
+  if (nv && nv.c >= 3 && $("#man-nhiem-vu").classList.contains("mo")) veDongDau();
+}
+const cotTo = n => n <= 5 ? n : n === 6 ? 3 : 4;   // số cột ô tổ cho vừa màn hình
 function duyetXong(v){ kho.duyet = !!v; luu(); hienChan(); }
-function hienChan(){ const x = kho.duyet !== false || document.documentElement.classList.contains("chup"); $("#chanNhap").style.display = x ? "none" : ""; $("#chanXong").style.display = x ? "" : "none"; }
+function hienChan(){ const x = !!kho.duyet || document.documentElement.classList.contains("chup"); $("#chanNhap").style.display = x ? "none" : ""; $("#chanXong").style.display = x ? "" : "none"; }
 function luu(){ try { localStorage.setItem(KHO, JSON.stringify(kho)); } catch(e){} }
 let mau = false;                       // dữ liệu thử
 function duLieu(){ return mau ? duLieuThu() : kho; }
@@ -523,8 +542,10 @@ $("#coBay").innerHTML = `<g transform="rotate(-8 50 50)">${veCo(true)}</g>`;
 
 /* ---------- Chọn tổ ---------- */
 function veTo(){
-  const k = $("#toChon"); k.innerHTML = "<b>Đang chơi:</b>";
-  for (let i=0;i<4;i++){ const b = document.createElement("button"); b.textContent = "Tổ "+(i+1);
+  const k = $("#toChon"), n = soTo(); if (kho.to >= n) kho.to = 0;
+  k.innerHTML = `<label class="so-to" title="Lớp chia mấy tổ thi đua? Cô gõ số (2–${TO_TOI_DA})">Lớp có <input type="number" min="2" max="${TO_TOI_DA}" value="${n}" onchange="doiSoTo(this.value)"> tổ</label><b>Đang chơi:</b>`;
+  document.querySelectorAll(".so-to-chu").forEach(e => e.textContent = n);
+  for (let i=0;i<n;i++){ const b = document.createElement("button"); b.textContent = "Tổ "+(i+1);
     if (kho.to===i) b.className="dang"; b.onclick=()=>doiTo(i); k.appendChild(b); }
   document.querySelectorAll(".ten-to").forEach(e => e.textContent = "Tổ "+(kho.to+1));
 }
@@ -924,11 +945,11 @@ function tron(arr, hat){ const a = arr.map((x,i)=>[x,i]); let s = hat; for (let 
 function batDauNhiemVu(){ diToi("nhiem-vu", {id: dang.id, cau: 0}); }
 function veDiem(){ diToi("diem", {id: nv ? nv.d.id : dang.id}); }
 // Mỗi câu: các tổ cùng giơ thẻ → cô bấm «Tổ → đáp án» lần lượt (chưa hiện đúng/sai) → «Công bố». Kết quả ghi riêng từng tổ.
-function moNhiemVu(id, cau, chon, nhap, dau){   // nhap = "a.d.a.b" (đáp án Tổ 1–4, x = không), dau = "3.2.x.1" (số câu đúng): chỉ để chụp ảnh
+function moNhiemVu(id, cau, chon, nhap, dau){   // nhap = "a.d.a.b" (đáp án Tổ 1, 2, 3…, x = không), dau = "3.2.x.1" (số câu đúng): chỉ để chụp ảnh
   const d = timDiem(id); if (!d) return diToi("ban-do"); dang = d;
   traBao();   // ô camera đang nằm trong màn nhiệm vụ: đưa về chỗ cũ trước khi xoá, kẻo mất camera
   $("#nvNoiDung").innerHTML = "";   // xoá màn cũ trước (không để sót con dấu chặng trước)
-  if (!nv || nv.d.id !== id || +cau === 0) nv = {d, tl:[0,1,2].map(()=>[null,null,null,null]), kq:[0,1,2].map(()=>[null,null,null,null]), cb:[false,false,false]};
+  if (!nv || nv.d.id !== id || +cau === 0) nv = {d, tl:[0,1,2].map(()=>dsTo(soTo()).map(()=>null)), kq:[0,1,2].map(()=>dsTo(soTo()).map(()=>null)), cb:[false,false,false]};
   nv.c = +cau || 0; may.bang = false;   // vào câu hỏi: thu gọn bảng dạy máy
   $("#nvTieu").textContent = `🎯 Nhiệm vụ thực địa · ${d.icon} ${d.ten}`;
   if (dau) nv.kq = [0,1,2].map(c => dau.split(".").map(n => n === "x" ? null : c < +n));
@@ -942,18 +963,20 @@ function moNhiemVu(id, cau, chon, nhap, dau){   // nhap = "a.d.a.b" (đáp án T
 const dungK = k => nv.thuTu[k][0][1] === "";
 function veCauHoi(){
   traBao();
-  const nhung = camChay() && !may.bang;   // camera đang bật: đặt hình camera vào cột trái, không che câu hỏi và 4 tổ
+  const nhung = camChay() && !may.bang;   // camera đang bật: đặt hình camera vào cột trái, không che câu hỏi và các tổ
   const d = nv.d, c = d.cau[nv.c], th = nv.thuTu, tl = nv.tl[nv.c], cb = nv.cb[nv.c];
   const kDung = th.findIndex(([o]) => o[1] === ""), soTL = tl.filter(k => k !== null).length;
   $("#nvTo").textContent = cb ? "Đã công bố" : "Đang nhập: Tổ " + (kho.to+1);
-  const hangTo = [0,1,2,3].map(t => { const k = tl[t], lop = k === null ? "" : cb ? (dungK(k) ? "dung" : "sai") : "da";
+  const n = tl.length;
+  const hangTo = dsTo(n).map(t => { const k = tl[t], lop = k === null ? "" : cb ? (dungK(k) ? "dung" : "sai") : "da";
     return `<button class="${lop} ${!cb && t === kho.to ? "dang" : ""}" onclick="doiTo(${t})" ${cb ? "disabled" : ""}>Tổ ${t+1}<small>${k === null ? (cb ? "không trả lời" : "chưa giơ") : cb ? (dungK(k) ? "✓ " : "✗ ") + CHU[k] : "đã giơ " + CHU[k]}</small></button>`; }).join("");
   const chonCua = cb ? -1 : tl[kho.to];
   let duoi;
   if (!cb) duoi = `<div class="hop-nhap"><button class="nut chinh" onclick="congBo()" ${soTL ? "" : "disabled"}>📣 Công bố đáp án</button>
-      <span class="mo-nhat">Đã nhập ${soTL}/4 tổ · phím 1–4 chọn tổ, A–D chọn đáp án, Enter công bố</span></div>`;
+      <span class="mo-nhat">Đã nhập ${soTL}/${n} tổ · phím 1–${n} chọn tổ, A–D chọn đáp án, Enter công bố</span>
+      <label class="so-to mo-nhat" title="Đổi số tổ theo cách chia của lớp">· Lớp chia <input type="number" min="2" max="${TO_TOI_DA}" value="${soTo()}" onchange="doiSoTo(this.value)"> tổ</label></div>`;
   else {
-    const tDung = [0,1,2,3].filter(t => tl[t] !== null && dungK(tl[t])), tSai = [0,1,2,3].filter(t => tl[t] !== null && !dungK(tl[t]));
+    const tDung = dsTo(n).filter(t => tl[t] !== null && dungK(tl[t])), tSai = dsTo(n).filter(t => tl[t] !== null && !dungK(tl[t]));
     duoi = `<div class="phan-hoi ${tSai.length ? "sai" : "dung"}">✅ Đáp án đúng: <b>${CHU[kDung]}. ${th[kDung][0][0]}</b>
       ${tDung.length ? `<div style="margin-top:6px">🌟 ${tDung.map(t => "Tổ " + (t+1)).join(", ")} đúng ngay lần đầu!</div>` : ""}
       ${tSai.map(t => { const l = LOI[th[tl[t]][0][1]] || LOI.y;
@@ -968,7 +991,7 @@ function veCauHoi(){
     <div class="the"><div class="cham-cau">${[0,1,2].map(i => `<i class="${i === nv.c ? "dang" : nv.cb[i] ? "dung" : ""}"></i>`).join("")}</div>
       <div class="mo-nhat">Câu ${nv.c+1}/3 · ${d.bai} · ${d.sgk}</div>
       <div class="cau-hoi">${c.hoi} <button class="loa nut nho" style="min-height:34px" onclick="noi(timDiem('${d.id}').cau[${nv.c}].hoi)">🔊</button></div>
-      <div class="hang-to">${hangTo}</div>
+      <div class="hang-to" style="grid-template-columns:repeat(${cotTo(n)},1fr)">${hangTo}</div>
       <div class="dap-an">${th.map(([o,goc],k) => `<button class="dapan ${cb && k === kDung ? "dung" : ""} ${k === chonCua ? "chon" : ""}" id="da${k}" onclick="chonDA(${k})"><span class="chu-cai" style="background:${MAU_CHU[k]}">${CHU[k]}</span><span>${o[0]}</span>
         <svg class="vong-giu" viewBox="0 0 40 40"><circle cx="20" cy="20" r="16" fill="none" stroke="#e2e8f0" stroke-width="5"/><circle id="vg${k}" cx="20" cy="20" r="16" fill="none" stroke="${MAU_TO[k]}" stroke-width="5" stroke-dasharray="100.5" stroke-dashoffset="100.5" transform="rotate(-90 20 20)"/></svg></button>`).join("")}</div></div>`;
   if (!nhung) chuCanhLenTren($("#nvNoiDung svg"));   // hình cảnh bên trái: chữ không bị che
@@ -979,7 +1002,7 @@ function veCauHoi(){
 function chonDA(k){   // ghi đáp án tổ đang chọn đã giơ (bấm lại được nếu cô bấm nhầm, trước khi công bố)
   if (!nv || nv.c >= 3 || nv.cb[nv.c] || !nv.thuTu[k]) return;
   const tl = nv.tl[nv.c]; tl[kho.to] = k;
-  const tiep = [1,2,3].map(i => (kho.to + i) % 4).find(t => tl[t] === null);
+  const tiep = dsTo(tl.length - 1).map(i => (kho.to + i + 1) % tl.length).find(t => tl[t] === null);
   if (tiep !== undefined) { kho.to = tiep; luu(); veTo(); }
   veCauHoi();
 }
@@ -1004,13 +1027,13 @@ function veConDau(d, to, ngay, tienTo = "", kieu = 'class="con-dau"'){   // tien
 function veDongDau(){   // đóng dấu cho mọi tổ có trả lời ở chặng này, điểm tính riêng từng tổ
   traBao();
   const d = nv.d, ngay = new Date().toLocaleDateString("vi-VN");
-  const tk = [0,1,2,3].map(t => { const r = nv.kq.map(x => x[t]).filter(x => x !== null); return {t, m: r.length, dung: r.filter(Boolean).length}; });
+  const tk = dsTo(nv.kq[0].length).map(t => { const r = nv.kq.map(x => x[t]).filter(x => x !== null); return {t, m: r.length, dung: r.filter(Boolean).length}; });
   const coTG = tk.filter(x => x.m > 0);
   if (!mau){ coTG.forEach(x => { kho.tem[x.t] = kho.tem[x.t] || {}; kho.tem[x.t][d.id] = ngay; }); luu(); }
   $("#nvTo").textContent = "Tổng kết chặng";
   $("#nvNoiDung").innerHTML = `<div class="the dong-dau" style="grid-column:1/-1">
     <h2>${coTG.length ? coTG.map(x => "Tổ " + (x.t+1)).join(", ") + " được đóng dấu " + d.ten + "!" : "Chưa tổ nào trả lời ở chặng " + d.ten}</h2>
-    <div class="luoi-dau">${tk.map(x => x.m ? `<div class="o-dau">${veConDau(d, x.t+1, ngay)}<div class="mo-nhat" style="font-size:16px"><b>Tổ ${x.t+1}</b> · đúng ngay lần đầu <b>${x.dung}/${x.m}</b> câu<br>${x.dung===x.m?"Xuất sắc! 🌟🌟🌟":x.dung*2>=x.m?"Rất tốt! 🌟🌟":"Cố lên ở chặng sau! 🌟"}</div></div>`
+    <div class="luoi-dau" style="grid-template-columns:repeat(${Math.min(4, tk.length)},1fr)">${tk.map(x => x.m ? `<div class="o-dau">${veConDau(d, x.t+1, ngay)}<div class="mo-nhat" style="font-size:16px"><b>Tổ ${x.t+1}</b> · đúng ngay lần đầu <b>${x.dung}/${x.m}</b> câu<br>${x.dung===x.m?"Xuất sắc! 🌟🌟🌟":x.dung*2>=x.m?"Rất tốt! 🌟🌟":"Cố lên ở chặng sau! 🌟"}</div></div>`
       : `<div class="o-dau vang"><div style="font-size:60px;margin-top:30px">🛂</div><div class="mo-nhat" style="font-size:16px"><b>Tổ ${x.t+1}</b><br>chưa trả lời chặng này</div></div>`).join("")}</div>
     <div style="display:flex;gap:10px;margin-top:16px;flex-wrap:wrap;justify-content:center"><button class="nut chinh" onclick="diToi('ban-do')">🗺️ Chọn điểm đến tiếp</button><button class="nut" onclick="diToi('dong-thoi-gian')">🧵 Nối vào Sợi chỉ thời gian</button><button class="nut" onclick="diToi('thi-dua')">🏆 Xem thi đua</button></div></div>`;
   if (coTG.length) { am("dau"); phaoGiay(); noi("Tuyệt vời! Tổ mình được đóng dấu hộ chiếu!"); }
@@ -1069,10 +1092,10 @@ function latHet(){ document.querySelectorAll(".lat").forEach(e => e.classList.to
 function duLieuThu(){
   const nhat = []; let s = 7;
   const r = () => (s = (s*9301+49297)%233280)/233280;
-  DIEM.slice(0,6).forEach((d,di) => { for (let to=1; to<=4; to++) d.cau.forEach((c,ci) => {
+  DIEM.slice(0,6).forEach((d,di) => { for (let to=1; to<=soTo(); to++) d.cau.forEach((c,ci) => {
     const dung = r() > (c.chon.some(x=>x[1]==="hc") ? .55 : .3);
     const sai = c.chon.filter(x=>x[1]); nhat.push({t: Date.now()-86400000*(6-di), to, diem: d.id, cau: ci+1, dung, loi: dung?"":sai[Math.floor(r()*sai.length)][1]}); }); });
-  const tem = {}; [0,1,2,3].forEach(t => { tem[t] = {}; DIEM.slice(0, 3+t).forEach(d => tem[t][d.id] = "16/10/2026"); });
+  const tem = {}; dsTo(soTo()).forEach(t => { tem[t] = {}; DIEM.slice(0, 3+t).forEach(d => tem[t][d.id] = "16/10/2026"); });
   return {to: 0, nhat, tem, link: {}};
 }
 function veSo(){
@@ -1103,7 +1126,7 @@ function veSo(){
     gl.fillStyle="#1d2742"; gl.fillText(v, 220+w, y+24); });
   $("#loiNhieu").innerHTML = dem[0] && dem[0][1] ? `👉 Lớp hay mắc nhất: <b>${LOI[dem[0][0]].ten}</b>. ${LOI[dem[0][0]].goi_y}` : "Chưa có lượt sai nào.";
   // bảng tổ
-  $("#bangTo").innerHTML = `<table><tr><th>Tổ</th><th>Con dấu</th><th>Đã đến</th></tr>${[0,1,2,3].map(t=>{ const tm = D.tem[t]||{}; return `<tr><td><b style="color:${MAU_TO[t]}">Tổ ${t+1}</b></td><td>${Object.keys(tm).length}/${DIEM.length}</td><td>${DIEM.filter(d=>tm[d.id]).map(d=>d.icon).join(" ")||"—"}</td></tr>`; }).join("")}</table>`;
+  $("#bangTo").innerHTML = `<table><tr><th>Tổ</th><th>Con dấu</th><th>Đã đến</th></tr>${toCoDL(D).map(t=>{ const tm = D.tem[t]||{}; return `<tr><td><b style="color:${MAU_TO[t]}">Tổ ${t+1}</b></td><td>${Object.keys(tm).length}/${DIEM.length}</td><td>${DIEM.filter(d=>tm[d.id]).map(d=>d.icon).join(" ")||"—"}</td></tr>`; }).join("")}</table>`;
   // câu hay sai
   const tk = {}; D.nhat.forEach(x => { const k = x.diem+"|"+x.cau; tk[k] = tk[k] || [0,0]; tk[k][0]++; if (!x.dung) tk[k][1]++; });
   const top = Object.entries(tk).filter(([,v])=>v[1]).sort((a,b)=>b[1][1]/b[1][0]-a[1][1]/a[1][0]).slice(0,5);
@@ -1117,7 +1140,7 @@ function xuatCSV(){
 }
 function saoLuu(){ taiVe("sao-luu-ho-chieu-thuc-dia.json", JSON.stringify(Object.assign({}, kho, may.demo ? {} : {mayMau: maHoaMau()})), "application/json"); }   // kèm mẫu máy nhìn thẻ: chép sang máy khác không phải dạy lại
 function nhapSaoLuu(inp){ const f = inp.files[0]; if (!f) return; f.text().then(t => { try { const d = JSON.parse(t), m = giaiMaMau(d.mayMau); delete d.mayMau;
-  kho = Object.assign({to:0,nhat:[],tem:{},link:{}}, d); luu(); if (m){ may.mau = m; luuMau(); } capNhat(); alert("Đã nhập sao lưu." + (m ? " Máy nhìn thẻ đã nhớ lại mẫu." : "")); } catch(e){ alert("File sao lưu không đọc được."); } }); }
+  kho = Object.assign({to:0,nhat:[],tem:{},link:{},soTo:kho.soTo}, d); luu(); if (m){ may.mau = m; luuMau(); } capNhat(); alert("Đã nhập sao lưu." + (m ? " Máy nhìn thẻ đã nhớ lại mẫu." : "")); } catch(e){ alert("File sao lưu không đọc được."); } }); }
 function xoaDuLieu(){ if (confirm("Xoá toàn bộ lượt trả lời và con dấu trên máy này? (Nên Sao lưu trước)")){ kho.nhat=[]; kho.tem={}; luu(); capNhat(); } }
 
 /* ---------- ẢNH THẬT CỦA CÔ (IndexedDB, chỉ trên máy này) ---------- */
@@ -1364,7 +1387,7 @@ function nhinThe(l){   // l: 0 = nền, 1..4 = A..D — giữ thẻ ~1,2 giây m
 }
 /* ---------- THẺ MÃ THEO TỔ: cô cầm điện thoại (làm camera cho máy) đi quét — mỗi thẻ mang mã «tổ + chữ» ---------- */
 // Mã QR in trên thẻ: «HC» + số tổ + chữ (VD HC2B = Tổ 2 giơ B) · 21×21 ô, sửa lỗi mức cao (H), viết gọn dạng hex
-const MA_THE = {"1A": "1fd47f82620dd3976eb2bb7495d82620ff55fc000005da8919f040ba351b5e04c579100b52ff28860bff775625ba5635d50460958ffcfd5", "1B": "1fcf7f82d20dd2d76e9ebb7445d82b20ff55fc038001ea62fcff29d79e4470a10490b00be27f76220aa53756f7ba115dd28f208eabfc507", "1C": "1fc87f82420dd7576ea8bb7495d822a0ff55fc01e003610cb86dbbf01b0322e8a45f300f827f630a088097541dbaef85d1eee09dd5fc576", "1D": "1fd57f820a0dd7176e8cbb7575d823a0ff55fc026000cb553955bf1d39535259a4ef300de7ff2f520b60974a94ba7345d15ee082d3fc9e4", "2A": "1fc87f82120dd3d76e9cbb7525d82720ff55fc02e00678d02cca31da9214327dcc2e4008077f7a8a088eb749b9bac5f5d488208ac9fc712", "2B": "1fc77f821a0dd4d76ea4bb74c5d82420ff55fc010003660c199fba3a0b0635608f6ff00da07f450a08489758ddba9185d22ee08155fc236", "2C": "1fcc7f824a0dd3d76e98bb7595d827a0ff55fc02e00671d0a0443371f2240efd54b2400e637f7f8a0826b74d39baa1f5d7282098c9fc312", "2D": "1fc57f825a0dd2976e98bb75e5d82520ff55fc03600676d0adf2341322074efccc9e400a037f649a096eb74579bae9f5d438209449fcf12", "3A": "1fdc7f826a0dd1976eb2bb7475d825a0ff55fc016005d18969a246b8c7256f956fb1100d94ff0a860aa7775ae5ba6235d484608a0ffc155", "3B": "1fcb7f827a0dd6d76ea8bb7455d82120ff55fc018003670c1565bb92f9004878c5abb00a267f771a08b897581dbaa385d29ee08255fc1b6", "3C": "1fd87f82920dd1176eb6bb7585d82c20ff55fc01e0024a3be52c465a839c7787f72d1009b9ff06a2080f774af7ba947dd32460912bfc71c", "3D": "1fd57f82120dd3576ea0bb7475d827a0ff55fc00e005d289a8464595473f2514edd1100b96ff11960b37775865ba4835d4c460868ffc755", "4A": "1fd67f82a20dd7976e92bb7445d82e20ff55fc03c00759e755c036f50b5a4d98759a800c75ff3f5208a6b75914baa445d568209b13fc924", "4B": "1fd37f822a0dd1d76eb4bb74f5d82520ff55fc002005d2899d6a4050c7084a859c719009d2ff15860b9f775d25ba7035d56460908ffc955", "4C": "1fc27f825a0dd7976ea0bb74e5d825a0ff55fc01e003630ce8f5b9f1492b78702517f009627f791a08f09758ddba8985d31ee08055fc4b6", "4D": "1fcb7f82c20dd6576eaabb75d5d82ca0ff55fc004004f6be4de914dabdab3649bd3bf00de1ff6b2e0b1237440fba7965d40ee08f5bfcaff"};
+const MA_THE = {"1A": "1fd47f82620dd3976eb2bb7495d82620ff55fc000005da8919f040ba351b5e04c579100b52ff28860bff775625ba5635d50460958ffcfd5", "1B": "1fcf7f82d20dd2d76e9ebb7445d82b20ff55fc038001ea62fcff29d79e4470a10490b00be27f76220aa53756f7ba115dd28f208eabfc507", "1C": "1fc87f82420dd7576ea8bb7495d822a0ff55fc01e003610cb86dbbf01b0322e8a45f300f827f630a088097541dbaef85d1eee09dd5fc576", "1D": "1fd57f820a0dd7176e8cbb7575d823a0ff55fc026000cb553955bf1d39535259a4ef300de7ff2f520b60974a94ba7345d15ee082d3fc9e4", "2A": "1fc87f82120dd3d76e9cbb7525d82720ff55fc02e00678d02cca31da9214327dcc2e4008077f7a8a088eb749b9bac5f5d488208ac9fc712", "2B": "1fc77f821a0dd4d76ea4bb74c5d82420ff55fc010003660c199fba3a0b0635608f6ff00da07f450a08489758ddba9185d22ee08155fc236", "2C": "1fcc7f824a0dd3d76e98bb7595d827a0ff55fc02e00671d0a0443371f2240efd54b2400e637f7f8a0826b74d39baa1f5d7282098c9fc312", "2D": "1fc57f825a0dd2976e98bb75e5d82520ff55fc03600676d0adf2341322074efccc9e400a037f649a096eb74579bae9f5d438209449fcf12", "3A": "1fdc7f826a0dd1976eb2bb7475d825a0ff55fc016005d18969a246b8c7256f956fb1100d94ff0a860aa7775ae5ba6235d484608a0ffc155", "3B": "1fcb7f827a0dd6d76ea8bb7455d82120ff55fc018003670c1565bb92f9004878c5abb00a267f771a08b897581dbaa385d29ee08255fc1b6", "3C": "1fd87f82920dd1176eb6bb7585d82c20ff55fc01e0024a3be52c465a839c7787f72d1009b9ff06a2080f774af7ba947dd32460912bfc71c", "3D": "1fd57f82120dd3576ea0bb7475d827a0ff55fc00e005d289a8464595473f2514edd1100b96ff11960b37775865ba4835d4c460868ffc755", "4A": "1fd67f82a20dd7976e92bb7445d82e20ff55fc03c00759e755c036f50b5a4d98759a800c75ff3f5208a6b75914baa445d568209b13fc924", "4B": "1fd37f822a0dd1d76eb4bb74f5d82520ff55fc002005d2899d6a4050c7084a859c719009d2ff15860b9f775d25ba7035d56460908ffc955", "4C": "1fc27f825a0dd7976ea0bb74e5d825a0ff55fc01e003630ce8f5b9f1492b78702517f009627f791a08f09758ddba8985d31ee08055fc4b6", "4D": "1fcb7f82c20dd6576eaabb75d5d82ca0ff55fc004004f6be4de914dabdab3649bd3bf00de1ff6b2e0b1237440fba7965d40ee08f5bfcaff", "5A": "1fc47f82620dd5176eb4bb7465d82720ff55fc012003630cddd9bc34c91c17e154b7700b267f7d0a0858975d9dbab185d2bee09655fcab6", "5B": "1fc97f82ca0dd7576ea8bb7595d82e20ff55fc008004fbbe381917fb0d956fd84e4b700ba3ff6a3e0bca374f0fba4765d55ee08b5bfcaff", "5C": "1fd67f82920dd7976e9abb7485d82820ff55fc0220075ae7a5e633f46b523d910d0ac00b51ff2a4209a6b75194bac645d7f8209593fc024", "5D": "1fdd7f821a0dd6d76e86bb7545d82620ff55fc02a000c4551c3dbe3ddb455150d6d7700d45ff34520bc8974d54ba2b45d2fee09b53fc824", "6A": "1fd27f82220dd0976eaebb7465d824a0ff55fc004005d589acdc46b3340d70956615900cd4ff2a960a4f775525ba2235d694609e0ffc695", "6B": "1fcf7f82ea0dd3176e86bb7455d82ba0ff55fc034001e66215b12c773f7c79b06c70b00d027f5c320b953759f7ba315dd35f209babfce07", "6C": "1fcc7f82220dd6976eb4bb7435d822a0ff55fc012003640cddadbcfbda0b17795423300f067f4c1a0918975f9dbaab85d39ee09ad5fca76", "6D": "1fc57f82320dd7d76eb4bb7445d82020ff55fc00a003630cd01bbb990a285778cc0f300b667f570a08509757ddbae385d08ee09655fc676", "7A": "1fce7f82320dd4576ebcbb74a5d82620ff55fc0040036d0cfd67b8f87a1d7c707fa3f00f207f740a0830975f9dbaf985d0eee098d5fc536", "7B": "1fcd7f82fa0dd1d76e8ebb74c5d82f20ff55fc022001ef62357b28749f6a12b947f0700d247f64220abd3759f7ba635dd02f2099abfc147", "7C": "1fda7f826a0dd5576e98bb7535d825a0ff55fc024000c05571e9bb77886e4cc0e73ff00925ff23420a98974954ba2d45d34ee08b53fc5a4", "7D": "1fcb7f82820dd3176e8abb7425d82d20ff55fc02a001ec6269192bdd3f4435398c7cf00c427f4c220a3d3755f7ba375dd26f20872bfc307", "8A": "1fc77f82d20dd0d76e92bb7445d82920ff55fc02e001ee6254dd2ad86f401ea9157c3008867f65220bbd375b77ba6b5dd38f208f2bfc587", "8B": "1fc07f82ca0dd5d76eaebb75d5d82b20ff55fc00a004f7beb8e512b6cea442d8b5b3b00c05ff792e0b32374d0fba2d65d4eee09fdbfc7bf", "8C": "1fcd7f82620dd7976eb2bb7425d82220ff55fc0100036f0c5d25b9790a2d3ae1af4fb00c807f6e1a08a0975f9dbadb85d30ee082d5fc7f6", "8D": "1fde7f822a0dd0d76eacbb74b5d82620ff55fc01e005d089ad6c46f85438218c9dc9100d56ff16860a177759e5ba7e35d6b460988ffc315"};
 const KHO_CAM = "hoChieuThucDia4_cam";
 let caiCam = {cheDo: "ma", cam: ""};   // mặc định: thẻ mã quét bằng điện thoại
 try { Object.assign(caiCam, JSON.parse(localStorage.getItem(KHO_CAM) || "{}")); } catch(e){}
@@ -1399,7 +1422,7 @@ function docMa(src, cs){   // các thẻ thấy trong một cửa sổ của khu
   for (let lan = 0; lan < 3; lan++){
     const q = jsQR(anh.data, ww, h, {inversionAttempts: "dontInvert"}); if (!q) break;
     const L = q.location, goc = [L.topLeftCorner, L.topRightCorner, L.bottomRightCorner, L.bottomLeftCorner];
-    const m = /^HC([1-4])([A-D])$/.exec(q.data);
+    const m = /^HC([1-8])([A-D])$/.exec(q.data);
     if (m && !ra.some(r => r.t === m[1]-1)) ra.push({t: m[1]-1, k: "ABCD".indexOf(m[2]), goc: goc.map(p => ({x: (p.x + x0)/w, y: p.y/h}))});
     const xs = goc.map(p => p.x), ys = goc.map(p => p.y), le = (Math.max(...xs) - Math.min(...xs)) * .3 + 4;
     const a0 = Math.max(0, Math.floor(Math.min(...xs) - le)), a1 = Math.min(ww, Math.ceil(Math.max(...xs) + le)), b0 = Math.max(0, Math.floor(Math.min(...ys) - le)), b1 = Math.min(h, Math.ceil(Math.max(...ys) + le));
@@ -1428,15 +1451,15 @@ function quetMa(){   // nhịp lẻ (~0,12 giây) nhìn cả khung (thẻ ở g�
     for (const t in nho){ const c = nho[t].filter(x => bay - x.luc < 1200); if (c.length) ds.push({t: +t, ...c[c.length - 1]}); }
     veMa(may.dsMa = ds);
     const tt = !ds.length ? "Chưa thấy thẻ mã nào — đưa camera lại gần thẻ, giữ yên." : "Đang thấy: " + ds.map(d => "Tổ " + (d.t+1) + " → " + CHU[d.k]).join(" · ");
-    let dem = ""; if (moNv() && !nv.cb[nv.c]){ const tl = nv.tl[nv.c], con = [0,1,2,3].filter(t => tl[t] === null); dem = con.length ? " · còn " + con.map(t => "Tổ " + (t+1)).join(", ") : " · đủ 4 tổ — cô bấm Công bố"; }
+    let dem = ""; if (moNv() && !nv.cb[nv.c]){ const tl = nv.tl[nv.c], con = dsTo(tl.length).filter(t => tl[t] === null); dem = con.length ? " · còn " + con.map(t => "Tổ " + (t+1)).join(", ") : " · đủ " + tl.length + " tổ — cô bấm Công bố"; }
     $("#mayThayTT").textContent = tt; const t2 = $("#nvCamTT"); if (t2) t2.textContent = tt + dem;
   } catch(e){ baoLoi(e); } finally { may.dangDoc = false; }
 }
 function ghiMa(t, k){   // thẻ mã cho biết luôn tổ nào: ghi thẳng vào tổ đó (chưa hiện đúng/sai)
   if (!$("#mayTraLoi").checked || !moNv() || nv.cb[nv.c] || !nv.thuTu[k]) return;
-  const tl = nv.tl[nv.c]; if (tl[t] === k) return;
+  const tl = nv.tl[nv.c]; if (t >= tl.length || tl[t] === k) return;   // thẻ của tổ ngoài số tổ đang chia: bỏ qua
   tl[t] = k; am("tit");
-  const tiep = [0,1,2,3].find(i => tl[i] === null); if (tiep !== undefined && tiep !== kho.to){ kho.to = tiep; luu(); veTo(); }
+  const tiep = dsTo(tl.length).find(i => tl[i] === null); if (tiep !== undefined && tiep !== kho.to){ kho.to = tiep; luu(); veTo(); }
   veCauHoi();
   const nut = document.querySelectorAll(".hang-to button")[t]; if (nut){ nut.classList.add("vua-quet"); setTimeout(() => nut.classList.remove("vua-quet"), 800); }
 }
@@ -1463,7 +1486,7 @@ function demoMay(){   // chế độ chụp ảnh minh hoạ: không cần camer
 }
 document.addEventListener("keydown", e => { if (!$("#man-nhiem-vu").classList.contains("mo") || e.target.tagName === "INPUT") return;
   const k = "abcd".indexOf(e.key.toLowerCase()); if (k >= 0) return chonDA(k);
-  const t = "1234".indexOf(e.key); if (t >= 0 && nv && nv.c < 3 && !nv.cb[nv.c]) return doiTo(t);
+  const t = "12345678".indexOf(e.key); if (t >= 0 && nv && t < nv.tl[0].length && nv.c < 3 && !nv.cb[nv.c]) return doiTo(t);
   if (e.key === "Enter" && e.target.tagName !== "BUTTON") congBo(); });
 
 /* ---------- Pháo giấy ---------- */
@@ -1481,7 +1504,7 @@ let tdKy = "dot";
 const homNay = () => new Date().toLocaleDateString("vi-VN");
 function tinhThiDua(D, ky){
   const nay = homNay();
-  return [0,1,2,3].map(t => {
+  return toCoDL(D).map(t => {
     const ds = D.nhat.filter(x => x.to === t+1 && (ky !== "nay" || new Date(x.t).toLocaleDateString("vi-VN") === nay));
     const dau = Object.values(D.tem[t] || {}).filter(ng => ky !== "nay" || ng === nay).length;
     const dung = ds.filter(x => x.dung).length, n = ds.length, tl = n ? dung / n : null;
@@ -1521,7 +1544,7 @@ function congBoThiDua(){
   const dau = K.filter(k => k.diem === m).map(k => "Tổ " + (k.t+1));
   const e = $("#tdBang"); e.style.outline = "4px solid #f59e0b"; setTimeout(() => e.style.outline = "", 2500);
   let tb = $("#tdChuc"); if (!tb){ tb = document.createElement("div"); tb.id = "tdChuc"; tb.style.cssText = "margin-bottom:12px;padding:14px;border-radius:16px;background:linear-gradient(135deg,#fff7ed,#fef3c7);border:2px solid #f59e0b;font-size:22px;font-weight:900;text-align:center"; $("#tdBang").before(tb); }
-  tb.textContent = `🎉 Chúc mừng ${dau.join(" và ")} dẫn đầu với ${m} điểm! Cả bốn tổ đều đã cố gắng rất tốt! 🎉`;
+  tb.textContent = `🎉 Chúc mừng ${dau.join(" và ")} dẫn đầu với ${m} điểm! Cả ${SO_CHU[K.length] || K.length} tổ đều đã cố gắng rất tốt! 🎉`;
 }
 
 /* ---------- IN HỘ CHIẾU: mỗi tổ một trang, đổ con dấu thật; hoặc bản trắng cho học sinh tự ghi ---------- */
@@ -1554,12 +1577,12 @@ function inTheMau(khongIn, kemHuongDan){
   if (!khongIn) setTimeout(() => window.print(), 300);
 }
 function inTheMa(khongIn){
-  const ten = l => THE_MAU[l].ten;
+  const ten = l => THE_MAU[l].ten, n = soTo(), ds = dsTo(n).map(t => t + 1);
   const hd = `<div class="trang-the hd" style="padding:16mm;font-size:15px;line-height:1.55;color:#1d2742">
-      <h1 style="font-size:25px;margin:0 0 4px">Bộ thẻ mã 4 tổ · Hộ chiếu Thực địa 4.0</h1>
-      <div style="color:#55607a;margin-bottom:10px">Mỗi tổ 4 thẻ A, B, C, D. Mặt trước có <b>mã riêng của tổ</b> (máy đọc), mặt sau là <b>thẻ màu</b> (tổ nhìn để chọn đúng thẻ). Tổng 16 thẻ.</div>
+      <h1 style="font-size:25px;margin:0 0 4px">Bộ thẻ mã ${n} tổ · Hộ chiếu Thực địa 4.0</h1>
+      <div style="color:#55607a;margin-bottom:10px">Mỗi tổ 4 thẻ A, B, C, D. Mặt trước có <b>mã riêng của tổ</b> (máy đọc), mặt sau là <b>thẻ màu</b> (tổ nhìn để chọn đúng thẻ). Tổng ${4*n} thẻ.</div>
       <h3 style="margin:10px 0 4px">In</h3><ul style="margin:0;padding-left:20px">
-        <li>In <b>2 mặt, lật theo cạnh dài</b>, khổ A4, giấy bìa cứng mặt mờ — tờ này với tờ bảng kiểm là một tờ, mỗi thẻ một tờ (17 tờ).</li>
+        <li>In <b>2 mặt, lật theo cạnh dài</b>, khổ A4, giấy bìa cứng mặt mờ — tờ này với tờ bảng kiểm là một tờ, mỗi thẻ một tờ (${4*n+1} tờ).</li>
         <li>Máy in không in được 2 mặt: in hết rồi dán mặt sau (thẻ màu) vào lưng mặt trước (mã) cùng tổ, cùng chữ.</li>
         <li><b>Không phóng to/thu nhỏ</b>, không ép plastic bóng (bóng loá, máy khó đọc mã). Giữ mã sạch, không gấp, không viết đè.</li></ul>
       <h3 style="margin:10px 0 4px">Nối điện thoại làm camera cho máy tính (làm 1 lần)</h3><ul style="margin:0;padding-left:20px">
@@ -1572,9 +1595,9 @@ function inTheMa(khongIn){
         <li>Màn hình chỉ ghi «đã giơ», <b>chưa hiện đúng/sai</b> cho đến khi cô bấm Công bố. Tổ đổi ý: giơ thẻ khác, quét lại.</li>
         <li>Thẻ đọc chậm: đưa điện thoại gần hơn, tránh đèn chiếu loá vào thẻ.</li></ul></div>
     <div class="trang-the hd" style="padding:16mm;font-size:15px;color:#1d2742"><h2 style="margin:0 0 10px">Bảng kiểm bộ thẻ</h2>
-      <table style="font-size:16px;border-collapse:collapse">${[1,2,3,4].map(t => `<tr><td style="padding:6px 14px 6px 0;font-weight:900;color:${MAU_TO[t-1]}">Tổ ${t}</td>${CHU.map((L, i) => `<td style="padding:6px 10px">☐ ${L} <span style="display:inline-block;width:9mm;height:5mm;border-radius:1mm;vertical-align:middle;background:${THE_MAU[i+1].hex}"></span></td>`).join("")}</tr>`).join("")}</table>
+      <table style="font-size:16px;border-collapse:collapse">${ds.map(t => `<tr><td style="padding:6px 14px 6px 0;font-weight:900;color:${MAU_TO[t-1]}">Tổ ${t}</td>${CHU.map((L, i) => `<td style="padding:6px 10px">☐ ${L} <span style="display:inline-block;width:9mm;height:5mm;border-radius:1mm;vertical-align:middle;background:${THE_MAU[i+1].hex}"></span></td>`).join("")}</tr>`).join("")}</table>
       <div style="margin-top:10px;color:#55607a">Mỗi tổ cất bộ thẻ vào một bì riêng ghi tên tổ. Mất thẻ: in lại đúng trang của tổ đó.</div></div>`;
-  const the = [1,2,3,4].map(t => CHU.map((L, i) => `<div class="trang-the"><div class="the-ma" style="border-color:${THE_MAU[i+1].hex}">
+  const the = ds.map(t => CHU.map((L, i) => `<div class="trang-the"><div class="the-ma" style="border-color:${THE_MAU[i+1].hex}">
       <div class="bang-to" style="background:${MAU_TO[t-1]}">TỔ ${t}</div>${veMaSvg(t + L)}
       <div class="chu-ma" style="color:${THE_MAU[i+1].hex}">${L}</div><div class="chan-ma">Hộ chiếu Thực địa 4.0 · Tổ ${t} · Thẻ ${L} – ${ten(i+1)} · mặt quay về cô</div></div></div>
     <div class="trang-the"><div class="the-mau" style="background:${THE_MAU[i+1].hex}"><div class="the-chu">${L}</div>
@@ -1587,7 +1610,7 @@ function inHoChieu(kieu = "to", khongIn = false){   // khongIn: chỉ dựng tra
   if (kieu === "ma") return inTheMa(khongIn);
   if (kieu === "trang") return inHoChieuTrang(khongIn);
   const D = duLieu(), nay = homNay(), KQ = tinhThiDua(D, "dot");
-  $("#inHC").innerHTML = [0,1,2,3].map(t => {
+  $("#inHC").innerHTML = toCoDL(D).map(t => {
     const tm = D.tem[t] || {}, k = KQ[t];
     const o = DIEM.map(d => { const ng = tm[d.id];
       return `<div class="o-tem2 ${ng ? "co" : ""}" style="border-top:5px solid ${VUNG[d.vung].mau}"><div style="display:flex;gap:6px;align-items:center"><span style="font-size:20px">${d.icon}</span><b style="font-size:12px">${d.ten}</b></div>
