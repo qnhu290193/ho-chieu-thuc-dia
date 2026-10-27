@@ -497,7 +497,7 @@ function doiSoTo(v){
 }
 const cotTo = n => n <= 5 ? n : n === 6 ? 3 : 4;   // số cột ô tổ cho vừa màn hình
 function duyetXong(v){ kho.duyet = !!v; luu(); hienChan(); }
-function hienChan(){ const x = !!kho.duyet || document.documentElement.classList.contains("chup"); $("#chanNhap").style.display = x ? "none" : ""; $("#chanXong").style.display = x ? "" : "none"; }
+function hienChan(){ const x = kho.duyet !== false || document.documentElement.classList.contains("chup"); $("#chanNhap").style.display = x ? "none" : ""; $("#chanXong").style.display = x ? "" : "none"; }
 function luu(){ try { localStorage.setItem(KHO, JSON.stringify(kho)); } catch(e){} }
 let mau = false;                       // dữ liệu thử
 function duLieu(){ return mau ? duLieuThu() : kho; }
